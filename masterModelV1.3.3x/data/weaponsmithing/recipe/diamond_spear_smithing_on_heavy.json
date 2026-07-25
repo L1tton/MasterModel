@@ -1,0 +1,119 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": "minecraft:heavy_core",
+  "base": "minecraft:diamond_spear",
+  "result": {
+    "id": "minecraft:diamond_spear",
+    "components": {
+      "!attack_range": {},
+      "!blocks_attacks": {},
+      "!weapon":{},
+      "custom_data":{
+        "weaponsmithing:blindness_weapon":{}
+      },
+      "minecraft:attribute_modifiers": [
+        {
+          "id": "minecraft:base_attack_damage",
+          "type": "attack_damage",
+          "amount": 3.0,
+          "display":{
+            "type": "override",
+            "value": {
+              "text": " 6 攻击伤害",
+              "color": "dark_green"
+            }
+          },          
+          "operation": "add_value",
+          "slot": "mainhand"
+        },
+        {
+          "id": "minecraft:base_attack_speed",
+          "type": "attack_speed",
+          "amount": -3.05,
+          "display":{
+            "type": "override",
+            "value": {
+              "text": " 0.75 攻击速度",
+              "color": "dark_green"
+            }
+          },  
+          "operation": "add_value",
+          "slot": "mainhand"
+        },
+        {
+          "id": "minecraft:attack_damage_boost",
+          "type": "attack_damage",
+          "amount": 2,
+          "display":{
+            "type": "hidden"
+          },
+          "operation": "add_value",
+          "slot": "mainhand"
+        },
+        {
+          "id": "minecraft:attack_speed_boost",
+          "type": "attack_speed",
+          "amount": -0.2,
+          "display":{
+            "type": "hidden"
+          },
+          "operation": "add_value",
+          "slot": "mainhand"
+        },
+        {
+          "id": "minecraft:attack_knockback_boost",
+          "type": "attack_knockback",
+          "amount": 0.2,
+          "display":{
+            "type": "hidden"
+          },  
+          "operation": "add_value",
+          "slot": "mainhand"
+        },
+        {
+          "id": "minecraft:knockback_resistance_boost",
+          "type": "knockback_resistance",
+          "amount": 0.2,
+          "display":{
+            "type": "hidden"
+          },  
+          "operation": "add_value",
+          "slot": "mainhand"
+        }
+      ],
+            "minecraft:lore": [
+        {
+          "text": "沉重的：",
+          "color": "gold",
+          "italic": true
+        },
+        {
+          "text": " -攻击速度",
+          "color": "blue",
+          "italic": true
+        },  
+        {
+          "text": " +眩晕",
+          "color": "blue",
+          "italic": true
+        },  
+        {
+          "text": " -攻击速度",
+          "color": "gray",
+          "italic": true
+        },       
+        {
+          "text": "=================",
+          "color": "dark_gray"
+        },
+        {
+          "text": "欲戴其冠 必承其重",
+          "color": "dark_red",
+          "italic": false,
+          "bold": true 
+        }        
+      ]
+    }
+  },
+  "template": "minecraft:flow_armor_trim_smithing_template"
+}

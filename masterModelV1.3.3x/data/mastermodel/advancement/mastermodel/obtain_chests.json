@@ -1,0 +1,36 @@
+{
+  "parent": "mastermodel:mastermodel/obtain_bundle",
+  "criteria": {
+    "obtain_chest": {
+      "conditions": {
+        "items": [
+          {
+            "items": "chest",
+            "count": 64
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "text": "拥有一组箱子"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:chest"
+    },
+    "title": {
+      "text": "仓储空间"
+    }
+  },
+  "requirements": [
+    [
+      "obtain_chest"
+    ]
+  ],
+  "rewards": {
+    "experience": 50
+  }
+}

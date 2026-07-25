@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "X": "minecraft:leather"
+  },
+  "pattern": [
+    "X X",
+    "X X"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:leather_boots",
+    "components": {
+      "minecraft:attribute_modifiers": [
+        {
+          "id": "minecraft:movement_speed_boost",
+          "type": "movement_speed",
+          "amount": 0.005,
+          "operation": "add_value",
+          "slot": "feet"
+        }
+      ],
+      "minecraft:lore": [
+        {
+          "text": "这是鞋子",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  }
+}

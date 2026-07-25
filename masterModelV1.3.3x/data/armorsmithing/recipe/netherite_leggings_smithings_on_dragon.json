@@ -1,0 +1,118 @@
+{
+    "type": "minecraft:smithing_transform",
+    "addition": "minecraft:dragon_head",
+    "base": "minecraft:netherite_leggings",
+    "result": {
+      "id": "minecraft:netherite_leggings",
+      "components": {
+        "minecraft:trim": {
+          "pattern": "minecraft:spire",
+          "material": "minecraft:amethyst"
+        },
+        "minecraft:custom_data": {
+          "armorsmithing:dragon_head_health_boost": {}
+        },
+        "minecraft:attribute_modifiers": [
+          {
+            "id": "minecraft:armor_leggings",
+            "type": "armor",
+            "amount": 7.0,
+            "operation": "add_value",
+            "slot": "legs"
+
+          },
+          {
+            "id": "minecraft:armor_toughness_leggings",
+            "type": "armor_toughness",
+            "amount": 5.0,
+            "operation": "add_value",
+            "slot": "legs"
+          },
+          {
+            "id": "minecraft:movement_speed_leggings",
+            "type": "knockback_resistance",
+            "amount": 0.2,
+            "operation": "add_value",
+            "slot": "legs"
+          },
+          {
+            "id": "minecraft:burning_time_leggings",
+            "type": "burning_time",
+            "amount": -0.25,
+            "operation": "add_value",
+            "slot": "legs"
+          },      
+          {
+            "id": "minecraft:water_movement_efficiency_leggings",
+            "type": "water_movement_efficiency",
+            "amount": 0.8,
+            "operation": "add_value",
+            "slot": "legs"
+          },
+          {
+            "id": "minecraft:sneaking_speed_leggings",
+            "type": "sneaking_speed",
+            "amount": 0.3,
+            "operation": "add_value",
+            "slot": "legs"
+          }
+      ],
+        "minecraft:lore": [
+          {
+            "text": "=================",
+            "color": "dark_gray"
+          },
+          {
+            "text": "终末强化:",
+            "color": "red",
+            "italic": true
+          },
+          {
+            "text": "+护甲值",
+            "color": "gold",
+            "italic": true
+          },
+          {
+            "text": "+++盔甲韧性",
+            "color": "gold",
+            "italic": true
+          },
+          {
+            "text": "+击退抗性",
+            "color": "gold",
+            "italic": true
+          },          
+          {
+            "text": "-着火时间",
+            "color": "gold",
+            "italic": true
+          },
+          {
+            "text": "-----------------",
+            "color": "dark_gray"
+          },
+          {
+            "text": "+水中移动效率",
+            "color": "gold",
+            "italic": true
+          },
+          {
+            "text": "+潜行速度",
+            "color": "gold",
+            "italic": true
+          },
+          {
+            "text": "=================",
+            "color": "dark_gray"
+          },
+          {
+            "text": "虚空铸型，不可磨灭",
+            "color": "dark_red",
+            "italic": false,
+            "bold": true 
+          }        
+        ]
+      }
+    },
+    "template": "minecraft:spire_armor_trim_smithing_template"
+  }

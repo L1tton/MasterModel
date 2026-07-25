@@ -1,0 +1,24 @@
+{
+    "criteria": {
+      "player_attack": {
+        "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
+          "player": {
+            "equipment": {
+              "mainhand": {
+                "components": {
+                  "custom_data": {
+                      "mastermodel:hero_sword":{}
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "mastermodel:clear_effect"
+    },
+    "requirements": [["player_attack"]]
+  }

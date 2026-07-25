@@ -1,0 +1,89 @@
+{
+    "type": "minecraft:smithing_transform",
+    "addition": "minecraft:amethyst_shard",
+    "base": "minecraft:iron_axe",
+    "result": {
+      "id": "minecraft:iron_axe",
+      "components": {
+        "!blocks_attacks": {},
+        "!custom_data":{},
+        "!weapon":{},
+        "attack_range":{
+          "max_reach": 3.5
+        },
+        "minecraft:attribute_modifiers": [
+          {
+            "id": "minecraft:base_attack_damage",
+            "type": "attack_damage",
+            "amount": 8.0,
+            "display":{
+              "type": "override",
+              "value": {
+                "text": " 10 攻击伤害",
+                "color": "dark_green"
+              }
+            },          
+            "operation": "add_value",
+            "slot": "mainhand"
+          },
+          {
+            "id": "minecraft:base_attack_speed",
+            "type": "attack_speed",
+            "amount": -3.1,
+            "display":{
+              "type": "override",
+              "value": {
+                "text": " 0.6 攻击速度",
+                "color": "dark_green"
+              }
+            },  
+            "operation": "add_value",
+            "slot": "mainhand"
+          },
+          {
+            "id": "minecraft:attack_damage_boost",
+            "type": "attack_damage",
+            "amount": 1.0,
+            "display":{
+              "type": "hidden"
+            },
+            "operation": "add_value",
+            "slot": "mainhand"
+          },
+          {
+            "id": "minecraft:attack_speed_boost",
+            "type": "attack_speed",
+            "amount": -0.3,
+            "display":{
+              "type": "hidden"
+            },
+            "operation": "add_value",
+            "slot": "mainhand"
+          }
+        ],
+        "minecraft:lore": [
+          {
+            "text": "大的",
+            "color": "green",
+            "italic": true
+          },
+          {
+            "text": " +攻击伤害",
+            "color": "blue",
+            "italic": true
+          },
+          {
+            "text": " +攻击范围",
+            "color": "blue",
+            "italic": true
+          },
+          {
+            "text": " -攻击速度",
+            "color": "gray",
+            "italic": true
+          }   
+        ]
+      }
+    },
+    "template": "minecraft:wayfinder_armor_trim_smithing_template"
+  }

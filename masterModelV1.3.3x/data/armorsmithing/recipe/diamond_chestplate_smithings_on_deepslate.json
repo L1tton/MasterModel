@@ -1,0 +1,95 @@
+{
+    "type": "minecraft:smithing_transform",
+    "addition": "minecraft:reinforced_deepslate",
+    "base": "minecraft:diamond_chestplate",
+    "result": {
+      "id": "minecraft:diamond_chestplate",
+      "components": {
+        "!custom_data":{},
+        "minecraft:trim": {
+          "pattern": "minecraft:silence",
+          "material": "minecraft:amethyst"
+        },
+        "minecraft:max_damage":317,
+        "minecraft:attribute_modifiers": [
+          {
+            "id": "minecraft:armor_chestplate",
+            "type": "armor",
+            "amount": 8.0,
+            "operation": "add_value",
+            "slot": "chest"
+          },
+          {
+            "id": "minecraft:armor_toughness_boots",
+            "type": "armor_toughness",
+            "amount": 2.0,
+            "operation": "add_value",
+            "slot": "chest"
+          },            
+          {
+          "id": "diamond_chestplate_upgrade:armor_boost",
+          "type": "armor",
+          "amount": 2.0,
+          "operation": "add_value",
+          "slot": "chest"
+          },
+          {
+          "id": "diamond_chestplate_upgrade:toughness_boost",
+          "type": "armor_toughness",
+          "amount": 2.0,
+          "operation": "add_value",
+          "slot": "chest"
+        },
+        {
+          "id": "minecraft:movement_efficiency_boots",
+          "type": "movement_efficiency",
+          "amount": 0.2,
+          "operation": "add_value",
+          "slot": "chest"
+        }
+        ],
+        "minecraft:lore": [
+          {
+            "text": "=================",
+            "color": "dark_gray"
+          },
+          {
+            "text": "幽静强化:",
+            "color": "red",
+            "italic": true
+          },
+          {
+            "text": "++护甲值",
+            "color": "gold",
+            "italic": true
+          },
+          {
+            "text": "++盔甲韧性",
+            "color": "gold",
+            "italic": true
+          },
+          {
+            "text": "+步履稳健",
+            "color": "gold",
+            "italic": true
+          },          
+          {
+            "text": "-易碎",
+            "color": "gray",
+            "italic": true
+          },
+          {
+            "text": "=================",
+            "color": "dark_gray"
+          },
+          {
+            "text": "亘古回响，声声不息",
+            "color": "dark_red",
+            "italic": false,
+            "bold": true 
+          }        
+        ]
+      }
+    },
+    "template": "minecraft:silence_armor_trim_smithing_template"
+  }

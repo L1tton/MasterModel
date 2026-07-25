@@ -1,0 +1,462 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:leather",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+            "functions": [
+            {
+              "components": {
+                  "minecraft:attribute_modifiers": [
+                    {
+                      "id": "minecraft:luck_boost",
+                      "type": "luck",
+                      "amount": 0.1,
+                      "operation": "add_value",
+                      "slot": "chest"
+                    }
+                  ],                
+                  "minecraft:lore": [
+                  {
+                    "text": "简易的",
+                    "color": "green",
+                    "italic": true
+                  }
+                ]
+              },
+              "function": "minecraft:set_components"
+            }
+          ],
+          "name": "minecraft:leather_chestplate",
+          "weight": 5
+        },
+                {
+          "type": "minecraft:item",
+            "functions": [
+            {
+              "components": {
+                  "minecraft:attribute_modifiers": [
+                    {
+                      "id": "minecraft:luck_boost",
+                      "type": "luck",
+                      "amount": 0.5,
+                      "operation": "add_value",
+                      "slot": "chest"
+                    }
+                  ],                
+                  "minecraft:lore": [
+                  {
+                    "text": "美观的",
+                    "color": "light_purple",
+                    "italic": true
+                  }
+                ]
+              },
+              "function": "minecraft:set_components"
+            }
+          ],
+          "name": "minecraft:leather_chestplate",
+          "weight": 14
+        },
+                {
+          "type": "minecraft:item",
+            "functions": [
+            {
+              "components": {
+                  "minecraft:attribute_modifiers": [
+                    {
+                      "id": "minecraft:luck_boost",
+                      "type": "luck",
+                      "amount": 1.0,
+                      "operation": "add_value",
+                      "slot": "chest"
+                    }
+                  ],                
+                  "minecraft:lore": [
+                  {
+                    "text": "时髦的",
+                    "color": "gold",
+                    "italic": true
+                  }
+                ]
+              },
+              "function": "minecraft:set_components"
+            }
+          ],
+          "name": "minecraft:leather_chestplate",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+            "functions": [
+            {
+              "components": {
+                  "minecraft:attribute_modifiers": [
+                    {
+                      "id": "minecraft:movement_speed_boost",
+                      "type": "movement_speed",
+                      "amount": 0.005,
+                      "operation": "add_value",
+                      "slot": "feet"
+                    }
+                  ],                
+                  "minecraft:lore": [
+                  {
+                    "text": "简易的",
+                    "color": "green",
+                    "italic": true
+                  }
+                ]
+              },
+              "function": "minecraft:set_components"
+            }
+          ],
+          "name": "minecraft:leather_boots",
+          "weight": 5
+        },        
+        {
+          "type": "minecraft:item",
+                      "functions": [
+            {
+              "components": {
+                  "minecraft:attribute_modifiers": [
+                    {
+                      "id": "minecraft:movement_speed_boost",
+                      "type": "movement_speed",
+                      "amount": 0.01,
+                      "operation": "add_value",
+                      "slot": "feet"
+                    }
+                  ],                
+                  "minecraft:lore": [
+                  {
+                    "text": "轻便的",
+                    "color": "light_purple",
+                    "italic": true
+                  }
+                ]
+              },
+              "function": "minecraft:set_components"
+            }
+          ],
+          "name": "minecraft:leather_boots",
+          "weight": 13
+        },
+
+        {
+          "type": "minecraft:item",
+            "functions": [
+            {
+              "components": {
+                  "minecraft:attribute_modifiers": [
+                    {
+                      "id": "minecraft:movement_speed_boost",
+                      "type": "movement_speed",
+                      "amount": 0.015,
+                      "operation": "add_value",
+                      "slot": "feet"
+                    }
+                  ],                
+                  "minecraft:lore": [
+                  {
+                    "text": "敏捷的",
+                    "color": "gold",
+                    "italic": true
+                  }
+                ]
+              },
+              "function": "minecraft:set_components"
+            }
+          ],
+          "name": "minecraft:leather_boots",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+            "functions": [
+            {
+              "components": {
+                  "minecraft:attribute_modifiers": [
+                    {
+                      "id": "minecraft:movement_speed_boost",
+                      "type": "movement_speed",
+                      "amount": 0.005,
+                      "operation": "add_value",
+                      "slot": "feet"
+                    },
+                    {
+                      "id": "minecraft:sneaking_speed_boost",
+                      "type": "sneaking_speed",
+                      "amount": 0.4,
+                      "operation": "add_value",
+                      "slot": "feet"
+                    }
+                  ],                
+                  "minecraft:lore": [
+                  {
+                    "text": "麦晓雯的",
+                    "color": "red",
+                    "italic": true
+                  }
+                ]
+              },
+              "function": "minecraft:set_components"
+            }
+          ],
+          "name": "minecraft:leather_boots",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+            "functions": [
+            {
+              "components": {
+                  "minecraft:attribute_modifiers": [
+                    {
+                      "id": "minecraft:luck_boost",
+                      "type": "luck",
+                      "amount": 0.1,
+                      "operation": "add_value",
+                      "slot": "head"
+                    }
+                  ],                
+                  "minecraft:lore": [
+                  {
+                    "text": "简易的",
+                    "color": "green",
+                    "italic": true
+                  }
+                ]
+              },
+              "function": "minecraft:set_components"
+            }
+          ],
+          "name": "minecraft:leather_helmet",
+          "weight": 5
+        },
+                {
+          "type": "minecraft:item",
+            "functions": [
+            {
+              "components": {
+                  "minecraft:attribute_modifiers": [
+                    {
+                      "id": "minecraft:luck_boost",
+                      "type": "luck",
+                      "amount": 0.5,
+                      "operation": "add_value",
+                      "slot": "head"
+                    }
+                  ],                
+                  "minecraft:lore": [
+                  {
+                    "text": "美观的",
+                    "color": "light_purple",
+                    "italic": true
+                  }
+                ]
+              },
+              "function": "minecraft:set_components"
+            }
+          ],
+          "name": "minecraft:leather_helmet",
+          "weight": 14
+        },
+                {
+          "type": "minecraft:item",
+            "functions": [
+            {
+              "components": {
+                  "minecraft:attribute_modifiers": [
+                    {
+                      "id": "minecraft:luck_boost",
+                      "type": "luck",
+                      "amount": 1.0,
+                      "operation": "add_value",
+                      "slot": "head"
+                    }
+                  ],                
+                  "minecraft:lore": [
+                  {
+                    "text": "时髦的",
+                    "color": "gold",
+                    "italic": true
+                  }
+                ]
+              },
+              "function": "minecraft:set_components"
+            }
+          ],
+          "name": "minecraft:leather_helmet",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:bread",
+          "weight": 50
+        },
+        {
+          "type": "minecraft:item",
+            "functions": [
+            {
+              "components": {
+                  "minecraft:attribute_modifiers": [
+                    {
+                      "id": "minecraft:luck_boost",
+                      "type": "luck",
+                      "amount": 0.1,
+                      "operation": "add_value",
+                      "slot": "legs"
+                    }
+                  ],                
+                  "minecraft:lore": [
+                  {
+                    "text": "简易的",
+                    "color": "green",
+                    "italic": true
+                  }
+                ]
+              },
+              "function": "minecraft:set_components"
+            }
+          ],
+          "name": "minecraft:leather_leggings",
+          "weight": 5
+        },
+                {
+          "type": "minecraft:item",
+            "functions": [
+            {
+              "components": {
+                  "minecraft:attribute_modifiers": [
+                    {
+                      "id": "minecraft:luck_boost",
+                      "type": "luck",
+                      "amount": 0.5,
+                      "operation": "add_value",
+                      "slot": "legs"
+                    }
+                  ],                
+                  "minecraft:lore": [
+                  {
+                    "text": "美观的",
+                    "color": "light_purple",
+                    "italic": true
+                  }
+                ]
+              },
+              "function": "minecraft:set_components"
+            }
+          ],
+          "name": "minecraft:leather_leggings",
+          "weight": 14
+        },
+                {
+          "type": "minecraft:item",
+            "functions": [
+            {
+              "components": {
+                  "minecraft:attribute_modifiers": [
+                    {
+                      "id": "minecraft:luck_boost",
+                      "type": "luck",
+                      "amount": 1.0,
+                      "operation": "add_value",
+                      "slot": "legs"
+                    }
+                  ],                
+                  "minecraft:lore": [
+                  {
+                    "text": "时髦的",
+                    "color": "gold",
+                    "italic": true
+                  }
+                ]
+              },
+              "function": "minecraft:set_components"
+            }
+          ],
+          "name": "minecraft:leather_leggings",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:saddle",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:emerald",
+          "weight": 10
+        }
+      ],
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 5.0,
+        "min": 1.0
+      }
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:bundle"
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 20
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecraft:chests/village/village_tannery"
+}

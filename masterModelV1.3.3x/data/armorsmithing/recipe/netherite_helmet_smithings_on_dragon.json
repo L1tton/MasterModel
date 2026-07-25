@@ -1,0 +1,125 @@
+{
+    "type": "minecraft:smithing_transform",
+    "addition": "minecraft:dragon_head",
+    "base": "minecraft:netherite_helmet",
+    "result": {
+      "id": "minecraft:netherite_helmet",
+      "components": {
+        "minecraft:trim": {
+          "pattern": "minecraft:spire",
+          "material": "minecraft:amethyst"
+        },
+        "minecraft:custom_data": {
+          "armorsmithing:dragon_head_health_boost": {}
+        },
+        "minecraft:attribute_modifiers": [
+          {
+            "id": "minecraft:armor_helmet",
+            "type": "armor",
+            "amount": 4.0,
+            "operation": "add_value",
+            "slot": "head"
+
+          },
+          {
+            "id": "minecraft:armor_toughness_helmet",
+            "type": "armor_toughness",
+            "amount": 5.0,
+            "operation": "add_value",
+            "slot": "head"
+          },
+          {
+            "id": "minecraft:movement_speed_helmet",
+            "type": "knockback_resistance",
+            "amount": 0.2,
+            "operation": "add_value",
+            "slot": "head"
+          },
+          {
+            "id": "minecraft:burning_time_helmet",
+            "type": "burning_time",
+            "amount": -0.25,
+            "operation": "add_value",
+            "slot": "head"
+          },      
+          {
+            "id": "minecraft:submerged_mining_speed_helmet",
+            "type": "submerged_mining_speed",
+            "amount": 0.6,
+            "operation": "add_value",
+            "slot": "head"
+          },
+          {
+            "id": "minecraft:oxygen_bonus_helmet",
+            "type": "oxygen_bonus",
+            "amount": 3,
+            "operation": "add_value",
+            "slot": "head"
+          },
+          {
+            "id": "minecraft:luck_helmet",
+            "type": "luck",
+            "amount": 2,
+            "operation": "add_value",
+            "slot": "head"
+          }
+      ],
+        "minecraft:lore": [
+          {
+            "text": "=================",
+            "color": "dark_gray"
+          },
+          {
+            "text": "终末强化:",
+            "color": "red",
+            "italic": true
+          },
+          {
+            "text": "+护甲值",
+            "color": "gold",
+            "italic": true
+          },
+          {
+            "text": "+++盔甲韧性",
+            "color": "gold",
+            "italic": true
+          },
+          {
+            "text": "+击退抗性",
+            "color": "gold",
+            "italic": true
+          },          
+          {
+            "text": "-着火时间",
+            "color": "gold",
+            "italic": true
+          },
+          {
+            "text": "-----------------",
+            "color": "dark_gray"
+          },
+          {
+            "text": "+水中挖掘效率",
+            "color": "gold",
+            "italic": true
+          },
+          {
+            "text": "+额外氧气",
+            "color": "gold",
+            "italic": true
+          },
+          {
+            "text": "=================",
+            "color": "dark_gray"
+          },
+          {
+            "text": "虚空铸型，不可磨灭",
+            "color": "dark_red",
+            "italic": false,
+            "bold": true 
+          }        
+        ]
+      }
+    },
+    "template": "minecraft:spire_armor_trim_smithing_template"
+  }

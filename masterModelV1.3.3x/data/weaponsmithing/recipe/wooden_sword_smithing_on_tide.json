@@ -1,0 +1,69 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": "minecraft:conduit",
+  "base": "minecraft:wooden_sword",
+  "result": {
+    "id": "minecraft:wooden_sword",
+    "components": {
+      "!attack_range": {},
+      "!blocks_attacks": {},
+      "!weapon":{},
+      "custom_data":{
+        "weaponsmithing:weakness_weapon":{}
+      },
+      "minecraft:attribute_modifiers": [
+        {
+          "id": "minecraft:base_attack_damage",
+          "type": "attack_damage",
+          "amount": 3.0,
+          "display":{
+            "type": "override",
+            "value": {
+              "text": " 4 攻击伤害",
+              "color": "dark_green"
+            }
+          },          
+          "operation": "add_value",
+          "slot": "mainhand"
+        },
+        {
+          "id": "minecraft:base_attack_speed",
+          "type": "attack_speed",
+          "amount": -2.4,
+          "display":{
+            "type": "override",
+            "value": {
+              "text": " 1.6 攻击速度",
+              "color": "dark_green"
+            }
+          },  
+          "operation": "add_value",
+          "slot": "mainhand"
+        }
+      ],
+      "minecraft:lore": [
+        {
+          "text": "潮汐的",
+          "color": "gold",
+          "italic": true
+        },
+        {
+          "text": " +束缚",
+          "color": "gray",
+          "italic": true
+        },
+        {
+          "text": "=================",
+          "color": "dark_gray"
+        },
+        {
+          "text": "救赎之道 就在其中",
+          "color": "dark_red",
+          "italic": false,
+          "bold": true 
+        }  
+      ]
+    }
+  },
+  "template": "minecraft:tide_armor_trim_smithing_template"
+}

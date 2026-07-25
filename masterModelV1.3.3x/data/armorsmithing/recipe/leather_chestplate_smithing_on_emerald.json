@@ -1,0 +1,45 @@
+{
+    "type": "minecraft:smithing_transform",
+    "addition": "minecraft:emerald",
+    "base": "minecraft:leather_chestplate",
+    "result": {
+      "id": "minecraft:leather_chestplate",
+      "components": {
+        "custom_data":{
+          "host_boost":{}
+        },
+        "minecraft:attribute_modifiers": [
+          {
+            "id": "minecraft:fall_damage_multiplier_boost",
+            "type": "fall_damage_multiplier",
+            "amount": -0.5,
+            "operation": "add_value",
+            "slot": "chest"
+          }
+        ],
+        "minecraft:lore": [
+          {
+            "text": "雇主强化：",
+            "color": "light_purple",
+            "italic": true
+          },
+          {
+            "text": "-燃烧时间",
+            "color": "blue",
+            "italic": true
+          },
+          {
+            "text": "套装效果：",
+            "color": "gray",
+            "italic": true
+          },
+          {
+            "text": "+村庄英雄",
+            "color": "blue",
+            "italic": true
+          }
+        ]
+      }
+    },
+    "template": "minecraft:host_armor_trim_smithing_template"
+  }

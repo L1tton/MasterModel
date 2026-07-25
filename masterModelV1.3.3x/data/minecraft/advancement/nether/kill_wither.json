@@ -1,0 +1,53 @@
+{
+  "parent": "minecraft:nether/summon_wither",
+  "criteria": {
+    "killed_wither": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:wither"
+            }
+          }
+        ],
+        "player": {
+          "location": {
+            "biomes": "soul_sand_valley",
+            "position": {
+              "y":{
+                "max": 112,
+                "min": 32
+              }
+            }
+          }
+        }
+      },
+      "trigger": "minecraft:player_killed_entity"
+    }
+  },
+  "display": {
+    "description": {
+      "text": "在灵魂沙峡谷击败凋零"
+    },
+    "frame":"challenge",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:iron_sword"
+    },
+    "title": {
+      "text": "勇者之证"
+    }
+  },
+  "rewards":{
+    "experience": 1395,
+    "loot": ["mastermodel:hero_sword"]
+  },
+  "requirements": [
+    [
+      "killed_wither"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "mastermodel:mastermodel/find_village",
+  "criteria": {
+    "obtain_bundle": {
+      "conditions": {
+        "items": [
+          {
+            "items": "bundle"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "text": "拥有一个收纳袋"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:bundle"
+    },
+    "title": {
+      "text": "空间压缩术"
+    }
+  },
+  "requirements": [
+    [
+      "obtain_bundle"
+    ]
+  ]
+}

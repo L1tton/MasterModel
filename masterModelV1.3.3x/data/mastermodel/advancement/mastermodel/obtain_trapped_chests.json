@@ -1,0 +1,38 @@
+{
+  "parent": "mastermodel:mastermodel/obtain_chests",
+  "criteria": {
+    "obtain_chest": {
+      "conditions": {
+        "items": [
+          {
+            "items": "trapped_chest",
+            "count": 64
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "text": "拥有一组陷阱箱"
+    },
+    "hidden":true,
+    "frame":"challenge",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:trapped_chest"
+    },
+    "title": {
+      "text": "陷阱大师"
+    }
+  },
+  "requirements": [
+    [
+      "obtain_chest"
+    ]
+  ],
+  "rewards": {
+    "experience": 50
+  }
+}

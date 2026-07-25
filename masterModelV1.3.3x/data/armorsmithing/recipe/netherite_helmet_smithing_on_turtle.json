@@ -1,0 +1,53 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": "minecraft:turtle_scute",
+  "base": "minecraft:netherite_helmet",
+  "result": {
+    "id": "minecraft:diamond_helmet",
+    "components": {
+      "!custom_data":{},
+      "minecraft:trim": {
+        "pattern": "minecraft:coast",
+        "material": "minecraft:netherite"
+      },
+      "minecraft:attribute_modifiers": [
+        {
+          "id": "minecraft:armor_helmet",
+          "type": "armor",
+          "amount": 3.0,
+          "operation": "add_value",
+          "slot": "head"
+        },
+        {
+          "id": "minecraft:armor_toughness_helmet",
+          "type": "armor_toughness",
+          "amount": 2.0,
+          "operation": "add_value",
+          "slot": "head"
+        },
+        {
+          "id": "diamond_helmet_upgrade:toughness_boost",
+          "type": "armor_toughness",
+          "amount": 1.0,
+          "operation": "add_value",
+          "slot": "head"
+        }
+      ],
+      "minecraft:lore": [
+
+        {
+          "text": "海龟强化：+盔甲韧性",
+          "color": "green",
+          "italic": true
+        },
+        {
+          "text": "似乎有什么不同",
+          "color": "gray",
+          "italic":false,
+          "strikethrough":true
+        }
+      ]
+    }
+  },
+  "template": "minecraft:coast_armor_trim_smithing_template"
+}

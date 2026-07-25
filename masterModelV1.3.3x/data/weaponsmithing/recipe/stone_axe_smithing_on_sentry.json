@@ -1,0 +1,119 @@
+{
+    "type": "minecraft:smithing_transform",
+    "addition": "minecraft:experience_bottle",
+    "base": "minecraft:copper_axe",
+    "result": {
+      "id": "minecraft:copper_axe",
+      "components": {
+        "!attack_range": {},
+        "!custom_data":{},
+        "!weapon":{},
+        "blocks_attacks":{
+          "block_delay_seconds": 0.05,
+          "bypassed_by":"#minecraft:bypasses_shield",
+          "damage_reductions": [
+            {
+              "base": 4.0,
+              "factor": 0.25,
+              "horizontal_blocking_angle": 20,
+              "type": ["mob_attack","player_attack","mob_attack_no_aggro"]
+            },
+            {
+              "base": 0.0,
+              "factor": 1.0,
+              "horizontal_blocking_angle": 5,
+              "type": ["arrow"]
+            }
+          ],
+          "disable_cooldown_scale": 0.2,
+          "item_damage": {
+            "base": 1.0,
+            "factor": 0.2,
+            "threshold": 1.0
+          }
+        },
+        "use_effects":{
+          "can_sprint": false,
+          "speed_multiplier": 0.4
+        },
+        "minecraft:attribute_modifiers": [
+          {
+            "id": "minecraft:base_attack_damage",
+            "type": "attack_damage",
+            "amount": 9,
+            "display":{
+              "type": "override",
+              "value": {
+                "text": " 9 攻击伤害",
+                "color": "dark_green"
+              }
+            },          
+            "operation": "add_value",
+            "slot": "mainhand"
+          },
+          {
+            "id": "minecraft:base_attack_speed",
+            "type": "attack_speed",
+            "amount": -2.1,
+            "display":{
+              "type": "override",
+              "value": {
+                "text": " 0.9 攻击速度",
+                "color": "dark_green"
+              }
+            },  
+            "operation": "add_value",
+            "slot": "mainhand"
+          },
+          {
+            "id": "minecraft:attack_damage_boost",
+            "type": "attack_damage",
+            "amount": 0.0,
+            "display":{
+              "type": "hidden"
+            },
+            "operation": "add_value",
+            "slot": "mainhand"
+          },
+          {
+            "id": "minecraft:attack_speed_boost",
+            "type": "attack_speed",
+            "amount": 0.1,
+            "display":{
+              "type": "hidden"
+            },
+            "operation": "add_value",
+            "slot": "mainhand"
+          }
+        ],
+              "minecraft:lore": [
+          {
+            "text": "娴熟的",
+            "color": "light_purple",
+            "italic": true
+          },
+          {
+            "text": " +攻击速度",
+            "color": "blue",
+            "italic": true
+          },
+          {
+            "text": " +格挡",
+            "color": "blue",
+            "italic": true
+          },
+          {
+            "text": "=================",
+            "color": "dark_gray"
+          },
+          {
+            "text": "可以格挡部分伤害",
+            "color": "gray",
+            "italic": false,
+            "bold": true 
+          }          
+        ]
+      }
+    },
+    "template": "minecraft:sentry_armor_trim_smithing_template"
+  }

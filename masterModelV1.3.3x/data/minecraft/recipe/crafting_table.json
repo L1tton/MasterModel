@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "#minecraft:planks"
+  },
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "result": {
+    "count": 0,
+    "id": "minecraft:crafting_table"
+  },
+  "conditions":[
+    {
+      "type": "minecraft:false"
+    }
+  ],
+  "show_notification": false
+}

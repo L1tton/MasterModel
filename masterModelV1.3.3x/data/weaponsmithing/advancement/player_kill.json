@@ -1,0 +1,11 @@
+{
+    "criteria": {
+      "kill": {
+        "trigger": "player_killed_entity"
+      }
+    },
+    "rewards": {
+      "function": "weaponsmithing:tag_killer"
+    },
+    "requirements": [["kill"]]
+  }

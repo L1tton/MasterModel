@@ -1,0 +1,117 @@
+{
+    "parent": "mastermodel:mastermodel/obtain_mob_tools",
+    "criteria": {
+      "axes": {
+        "conditions": {
+            "items": [
+              {
+                "items": "#axes",
+                "components": {
+                  "custom_data":{
+                    "mastermodel:mob_weapon":{}
+                  }
+                }
+              }
+            ]
+        },
+        "trigger": "minecraft:inventory_changed"
+      },
+      "pickaxes": {
+        "conditions": {
+            "items": [
+              {
+                "items": "#pickaxes",
+                "components": {
+                  "custom_data":{
+                    "mastermodel:mob_weapon":{}
+                  }
+                }
+              }
+            ]
+        },
+        "trigger": "minecraft:inventory_changed"
+      },
+      "swords": {
+        "conditions": {
+            "items": [
+              {
+                "items": "#swords",
+                "components": {
+                  "custom_data":{
+                    "mastermodel:mob_weapon":{}
+                  }
+                }
+              }
+            ]
+        },
+        "trigger": "minecraft:inventory_changed"
+      },
+      "shovels": {
+        "conditions": {
+            "items": [
+              {
+                "items": "#shovels",
+                "components": {
+                  "custom_data":{
+                    "mastermodel:mob_weapon":{}
+                  }
+                }
+              }
+            ]
+        },
+        "trigger": "minecraft:inventory_changed"
+      },
+      "bow": {
+        "conditions": {
+            "items": [
+              {
+                "items": "bow",
+                "components": {
+                  "custom_data":{
+                    "mastermodel:mob_weapon":{}
+                  }
+                }
+              }
+            ]
+        },
+        "trigger": "minecraft:inventory_changed"
+      }
+    },
+    "display": {
+      "description": {
+        "text": "zqqnqjdsl",
+        "obfuscated": true
+      },
+      "frame":"challenge",
+      "icon": {
+        "count": 1,
+        "id": "minecraft:netherite_pickaxe",
+        "components":{
+          "enchantment_glint_override":true
+        }
+      },
+      "title": {
+        "text": "魔高一尺"
+      }
+    },
+    "requirements": [
+      [
+        "axes"
+      ],
+      [
+        "bow"
+      ],
+      [
+        "pickaxes"
+      ],
+      [
+        "shovels"
+      ],
+      [
+        "swords"
+      ]
+    ],
+    "rewards": {
+      "experience": 200
+    }
+  }

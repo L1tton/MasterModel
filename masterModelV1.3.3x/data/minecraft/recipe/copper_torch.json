@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "minecraft:stick",
+    "C": "minecraft:copper_ingot",
+    "X": [
+      "minecraft:coal",
+      "minecraft:charcoal"
+    ]
+  },
+  "pattern": [
+    "C",
+    "X",
+    "#"
+  ],
+  "result": {
+    "count": 6,
+    "id": "minecraft:copper_torch"
+  }
+}

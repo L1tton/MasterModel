@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "#": "#minecraft:planks",
+    "I": "minecraft:iron_ingot",
+    "S": "minecraft:stick"
+  },
+  "pattern": [
+    "I",
+    "S",
+    "#"
+  ],
+  "result": {
+    "count": 0,
+    "id": "minecraft:tripwire_hook"
+  },
+  "conditions":[
+    {
+      "type": "minecraft:false"
+    }
+  ]
+}

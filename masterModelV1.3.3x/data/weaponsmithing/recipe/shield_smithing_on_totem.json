@@ -1,0 +1,72 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": "minecraft:totem_of_undying",
+  "base": "minecraft:shield",
+  "result": {
+    "id": "minecraft:shield",
+    "components": {
+      "minecraft:banner_patterns": [
+          {
+          "color": "yellow",
+          "pattern": "stripe_center"
+          },
+          {
+          "color": "black",
+          "pattern": "flower"
+          },
+          {
+          "color": "yellow",
+          "pattern": "stripe_middle"
+          },
+          {
+          "color": "black",
+          "pattern": "straight_cross"
+          },
+          {
+          "color": "yellow",
+          "pattern": "curly_border"
+          },
+          {
+          "color": "black",
+          "pattern": "border"
+          }
+      ],
+      "minecraft:base_color": "black",
+      "minecraft:death_protection": {
+        "death_effects": [
+          {
+          "type": "minecraft:clear_all_effects"
+          },
+          {
+          "type": "minecraft:apply_effects",
+            "effects": [
+              {
+              "id": "minecraft:regeneration",
+              "amplifier": 1,
+              "duration": 900
+              },
+              {
+              "id": "minecraft:absorption",
+              "amplifier": 1,
+              "duration": 100
+              },
+              {
+              "id": "minecraft:fire_resistance",
+              "amplifier": 0,
+              "duration": 800
+              }
+            ]
+          }
+        ]
+      },
+      "minecraft:lore": [
+        {
+          "text": " 超越生死 ",
+          "color": "gold",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "template": "minecraft:vex_armor_trim_smithing_template"
+}

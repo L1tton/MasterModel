@@ -1,0 +1,36 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "head": {
+        "components": {
+          "minecraft:custom_data": {
+            "armorsmithing:host_boost": {}
+          }
+        }
+      },
+      "chest": {
+        "components": {
+          "minecraft:custom_data": {
+            "armorsmithing:host_boost": {}
+          }
+        }
+      },
+      "legs": {
+        "components": {
+          "minecraft:custom_data": {
+            "armorsmithing:host_boost": {}
+          }
+        }
+      },
+      "feet": {
+        "components": {
+          "minecraft:custom_data": {
+            "armorsmithing:host_boost": {}
+          }
+        }
+      }
+    }
+  }
+}

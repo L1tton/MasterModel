@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": "minecraft:lava_bucket",
+  "base": "minecraft:iron_block",
+  "result": {
+    "id": "minecraft:anvil"
+  },
+  "template": "minecraft:shaper_armor_trim_smithing_template"
+}

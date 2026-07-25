@@ -1,0 +1,53 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": "minecraft:ender_pearl",
+  "base": "minecraft:diamond_helmet",
+  "result": {
+    "id": "minecraft:diamond_helmet",
+    "components": {
+        "minecraft:trim": {
+          "pattern": "minecraft:eye",
+          "material": "minecraft:diamond"
+        },
+        "minecraft:custom_data": {
+          "armorsmithing:ender_pearl_blindness": {}
+        },
+        "minecraft:attribute_modifiers": [
+          {
+            "id": "minecraft:armor_helmet",
+            "type": "armor",
+            "amount": 3.0,
+            "operation": "add_value",
+            "slot": "head"
+          }
+        ],
+        "minecraft:lore": [
+          {
+            "text": "=================",
+            "color": "dark_gray"
+          },
+          {
+            "text": "眼眸强化：",
+            "color": "light_purple",
+            "italic": true
+          },
+          {
+            "text": "+洞察",
+            "color": "blue",
+            "italic": true
+          },
+          {
+            "text": "=================",
+            "color": "dark_gray"
+          },
+          {
+            "text": "以盲眼，换明心",
+            "color": "dark_red",
+            "italic": false,
+            "bold": true
+          }
+        ]
+      }
+    },
+    "template": "minecraft:eye_armor_trim_smithing_template"
+  }

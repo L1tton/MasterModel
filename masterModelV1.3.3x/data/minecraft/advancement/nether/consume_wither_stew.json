@@ -1,0 +1,41 @@
+{
+    "parent": "minecraft:nether/kill_wither",
+    "criteria": {
+      "consume_wither_stew": {
+        "conditions": {
+            "item": {
+                "items": "suspicious_stew",
+                "components": {
+                    "suspicious_stew_effects": [
+                        {
+                            "duration":140,
+                            "id": "minecraft:wither"
+                        }
+                    ]
+                }
+            }
+        },
+        "trigger": "minecraft:consume_item"
+      }
+    },
+    "display": {
+      "description": {
+        "text": "喝下炖菜并忘掉自己来过"
+      },
+      "icon": {
+        "count": 1,
+        "id": "minecraft:wither_rose"
+      },
+      "title": {
+        "text": "老师傅再见"
+      }
+    },
+    "rewards":{
+        "function": "mastermodel:drinking_stew"
+    },
+    "requirements": [
+      [
+        "consume_wither_stew"
+      ]
+    ]
+  }

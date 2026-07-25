@@ -1,0 +1,741 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 7.0,
+                "min": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:diamond",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 8.0,
+                "min": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:iron_ingot",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 7.0,
+                "min": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:gold_ingot",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 6.0,
+                "min": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:emerald",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 10.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:beetroot_seeds",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:saddle",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:copper_horse_armor"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_horse_armor"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_horse_armor"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_horse_armor"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 49.0,
+                "min": 10.0
+              },
+              "options": "#minecraft:on_random_loot"
+            },
+            {
+              "components": {
+                "minecraft:max_damage": 3903,
+                "custom_data":{
+                  "mastermodel:epic_tool":{}
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "传奇的",
+                    "color": "gold",
+                    "italic": true
+                  }
+                ]
+              },
+              "function": "minecraft:set_components"
+            }
+          ],
+          "name": "minecraft:diamond_sword",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 39.0,
+                "min": 30.0
+              },
+              "options": "#minecraft:on_random_loot"
+            },
+            {
+              "components": {
+                "minecraft:max_damage": 2341,
+                "custom_data":{
+                  "mastermodel:good_tool":{}
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "优质的",
+                    "color": "light_purple",
+                    "italic": true
+                  }
+                ]
+              },
+              "function": "minecraft:set_components"
+            }
+          ],
+          "name": "minecraft:diamond_sword",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 49.0,
+                "min": 10.0
+              },
+              "options": "#minecraft:on_random_loot"
+            },
+            {
+              "components": {
+                "minecraft:max_damage": 3903,
+                "custom_data":{
+                  "mastermodel:epic_tool":{}
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "传奇的",
+                    "color": "gold",
+                    "italic": true
+                  }
+                ]
+              },
+              "function": "minecraft:set_components"
+            }
+          ],
+          "name": "minecraft:diamond_spear",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 39.0,
+                "min": 30.0
+              },
+              "options": "#minecraft:on_random_loot"
+            },
+            {
+              "components": {
+                "minecraft:max_damage": 2341,
+                "custom_data":{
+                  "mastermodel:good_tool":{}
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "优质的",
+                    "color": "light_purple",
+                    "italic": true
+                  }
+                ]
+              },
+              "function": "minecraft:set_components"
+            }
+          ],
+          "name": "minecraft:diamond_spear",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 39.0,
+                "min": 30.0
+              },
+              "options": "#minecraft:on_random_loot"
+            }
+          ],
+          "name": "minecraft:diamond_boots",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 39.0,
+                "min": 30.0
+              },
+              "options": "#minecraft:on_random_loot"
+            }
+          ],
+          "name": "minecraft:diamond_chestplate",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 39.0,
+                "min": 30.0
+              },
+              "options": "#minecraft:on_random_loot"
+            }
+          ],
+          "name": "minecraft:diamond_leggings",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 39.0,
+                "min": 30.0
+              },
+              "options": "#minecraft:on_random_loot"
+            }
+          ],
+          "name": "minecraft:diamond_helmet",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 39.0,
+                "min": 10.0
+              },
+              "options": "#minecraft:on_random_loot"
+            },
+            {
+              "components": {
+                "minecraft:max_damage": 3903,
+                "custom_data":{
+                  "mastermodel:epic_tool":{}
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "传奇的",
+                    "color": "gold",
+                    "italic": true
+                  }
+                ]
+              },
+              "function": "minecraft:set_components"
+            }
+          ],
+          "name": "minecraft:diamond_pickaxe",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 39.0,
+                "min": 30.0
+              },
+              "options": "#minecraft:on_random_loot"
+            },
+            {
+              "components": {
+                "minecraft:max_damage": 2341,
+                "custom_data":{
+                  "mastermodel:good_tool":{}
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "优质的",
+                    "color": "light_purple",
+                    "italic": true
+                  }
+                ]
+              },
+              "function": "minecraft:set_components"
+            }
+          ],
+          "name": "minecraft:diamond_pickaxe",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 49.0,
+                "min": 10.0
+              },
+              "options": "#minecraft:on_random_loot"
+            },
+            {
+              "components": {
+                "minecraft:max_damage": 3903,
+                "custom_data":{
+                  "mastermodel:epic_tool":{}
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "传奇的",
+                    "color": "gold",
+                    "italic": true
+                  }
+                ]
+              },
+              "function": "minecraft:set_components"
+            }
+          ],
+          "name": "minecraft:diamond_shovel",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 39.0,
+                "min": 30.0
+              },
+              "options": "#minecraft:on_random_loot"
+            },
+            {
+              "components": {
+                "minecraft:max_damage": 2341,
+                "custom_data":{
+                  "mastermodel:good_tool":{}
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "优质的",
+                    "color": "light_purple",
+                    "italic": true
+                  }
+                ]
+              },
+              "function": "minecraft:set_components"
+            }
+          ],
+          "name": "minecraft:diamond_shovel",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 49.0,
+                "min": 10.0
+              },
+              "options": "#minecraft:on_random_loot"
+            },
+            {
+              "components": {
+                "minecraft:max_damage": 625,
+                "custom_data":{
+                  "mastermodel:epic_tool":{}
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "传奇的",
+                    "color": "gold",
+                    "italic": true
+                  }
+                ]
+              },
+              "function": "minecraft:set_components"
+            }
+          ],
+          "name": "minecraft:iron_sword",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 39.0,
+                "min": 30.0
+              },
+              "options": "#minecraft:on_random_loot"
+            },
+            {
+              "components": {
+                "minecraft:max_damage": 375,
+                "custom_data":{
+                  "mastermodel:good_tool":{}
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "优质的",
+                    "color": "light_purple",
+                    "italic": true
+                  }
+                ]
+              },
+              "function": "minecraft:set_components"
+            }
+          ],
+          "name": "minecraft:iron_sword",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 39.0,
+                "min": 20.0
+              },
+              "options": "#minecraft:on_random_loot"
+            }
+          ],
+          "name": "minecraft:iron_boots",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 39.0,
+                "min": 20.0
+              },
+              "options": "#minecraft:on_random_loot"
+            }
+          ],
+          "name": "minecraft:iron_chestplate",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 39.0,
+                "min": 20.0
+              },
+              "options": "#minecraft:on_random_loot"
+            }
+          ],
+          "name": "minecraft:iron_leggings",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 39.0,
+                "min": 20.0
+              },
+              "options": "#minecraft:on_random_loot"
+            }
+          ],
+          "name": "minecraft:iron_helmet",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 39.0,
+                "min": 20.0
+              },
+              "options": "#minecraft:on_random_loot"
+            },
+            {
+              "components": {
+                "minecraft:max_damage": 625,
+                "custom_data":{
+                  "mastermodel:epic_tool":{}
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "传奇的",
+                    "color": "gold",
+                    "italic": true
+                  }
+                ]
+              },
+              "function": "minecraft:set_components"
+            }
+          ],
+          "name": "minecraft:iron_pickaxe",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 39.0,
+                "min": 20.0
+              },
+              "options": "#minecraft:on_random_loot"
+            },
+            {
+              "components": {
+                "minecraft:max_damage": 375,
+                "custom_data":{
+                  "mastermodel:good_tool":{}
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "优质的",
+                    "color": "light_purple",
+                    "italic": true
+                  }
+                ]
+              },
+              "function": "minecraft:set_components"
+            }
+          ],
+          "name": "minecraft:iron_pickaxe",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 39.0,
+                "min": 20.0
+              },
+              "options": "#minecraft:on_random_loot"
+            },
+            {
+              "components": {
+                "minecraft:max_damage": 245,
+                "custom_data":{
+                  "mastermodel:epic_tool":{}
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "传奇的",
+                    "color": "gold",
+                    "italic": true
+                  }
+                ]
+              },
+              "function": "minecraft:set_components"
+            }
+          ],
+          "name": "minecraft:iron_shovel",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 39.0,
+                "min": 20.0
+              },
+              "options": "#minecraft:on_random_loot"
+            },
+            {
+              "components": {
+                "minecraft:max_damage": 375,
+                "custom_data":{
+                  "mastermodel:good_tool":{}
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "优质的",
+                    "color": "light_purple",
+                    "italic": true
+                  }
+                ]
+              },
+              "function": "minecraft:set_components"
+            }
+          ],
+          "name": "minecraft:iron_shovel",
+          "weight": 2
+        }
+      ],
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 6.0,
+        "min": 2.0
+      }
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 14
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "components": {
+                  "minecraft:lore": [
+                  {
+                    "text": "=================",
+                    "color": "dark_gray",
+                    "italic": true
+                  },
+                  {
+                    "text": "可用于强化:",
+                    "color": "gray",
+                    "italic": false
+                  },                  
+                  {
+                    "text": " 钻石,下界合金装备",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "text": "强化材料:",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": " 龙首",
+                    "color": "blue",
+                    "italic": false
+                  }
+                ]
+              },
+              "function": "minecraft:set_components"
+            }
+          ],
+          "name": "minecraft:spire_armor_trim_smithing_template"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecraft:chests/end_city_treasure"
+}

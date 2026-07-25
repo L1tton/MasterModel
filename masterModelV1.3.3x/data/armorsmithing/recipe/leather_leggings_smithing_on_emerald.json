@@ -1,0 +1,45 @@
+{
+    "type": "minecraft:smithing_transform",
+    "addition": "minecraft:emerald",
+    "base": "minecraft:leather_leggings",
+    "result": {
+      "id": "minecraft:leather_leggings",
+      "components": {
+        "custom_data":{
+          "host_boost":{}
+        },
+        "minecraft:attribute_modifiers": [
+          {
+            "id": "minecraft:sneaking_speed_boost",
+            "type": "sneaking_speed",
+            "amount": 0.4,
+            "operation": "add_value",
+            "slot": "legs"
+          }
+        ],
+        "minecraft:lore": [
+          {
+            "text": "雇主强化：",
+            "color": "light_purple",
+            "italic": true
+          },
+          {
+            "text": "+静步速度",
+            "color": "blue",
+            "italic": true
+          },
+          {
+            "text": "套装效果：",
+            "color": "gray",
+            "italic": true
+          },
+          {
+            "text": "+村庄英雄",
+            "color": "blue",
+            "italic": true
+          }
+        ]
+      }
+    },
+    "template": "minecraft:host_armor_trim_smithing_template"
+  }

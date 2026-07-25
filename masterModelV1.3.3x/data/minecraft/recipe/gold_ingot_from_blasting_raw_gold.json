@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 250,
+  "experience": 2.5,
+  "group": "gold_ingot",
+  "ingredient": "minecraft:raw_gold",
+  "result": {
+    "id": "minecraft:gold_ingot"
+  }
+}

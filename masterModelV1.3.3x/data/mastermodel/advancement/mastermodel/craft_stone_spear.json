@@ -1,0 +1,35 @@
+{
+    "parent": "mastermodel:mastermodel/root_obtain_stick",
+    "criteria": {
+      "stone_spear_from_flint": {
+        "conditions": {
+            "recipe_id": "mastermodel:stone_spear_from_flint"
+        },
+        "trigger": "minecraft:recipe_crafted"
+      },
+      "stone_spear": {
+        "conditions": {
+            "recipe_id": "minecraft:stone_spear"
+        },
+        "trigger": "minecraft:recipe_crafted"
+      }
+    },
+    "display": {
+      "description": {
+        "text": "用燧石和木棍合成一把石矛"
+      },
+      "icon": {
+        "count": 1,
+        "id": "minecraft:stone_spear"
+      },
+      "title": {
+        "text": "野蛮人"
+      }
+    },
+    "requirements": [
+      [
+        "stone_spear",
+        "stone_spear_from_flint"
+      ]
+    ]
+  }

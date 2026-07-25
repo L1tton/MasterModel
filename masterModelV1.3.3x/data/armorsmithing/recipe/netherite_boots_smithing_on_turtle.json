@@ -1,0 +1,53 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": "minecraft:turtle_scute",
+  "base": "minecraft:netherite_boots",
+  "result": {
+    "id": "minecraft:diamond_boots",
+    "components": {
+      "!custom_data":{},
+      "minecraft:trim": {
+        "pattern": "minecraft:coast",
+        "material": "minecraft:netherite"
+      },
+      "minecraft:attribute_modifiers": [
+        {
+          "id": "minecraft:armor_boots",
+          "type": "armor",
+          "amount": 3.0,
+          "operation": "add_value",
+          "slot": "feet"
+        },
+        {
+          "id": "minecraft:armor_toughness_boots",
+          "type": "armor_toughness",
+          "amount": 2.0,
+          "operation": "add_value",
+          "slot": "feet"
+        },
+        {
+          "id": "diamond_boots_upgrade:toughness_boost",
+          "type": "armor_toughness",
+          "amount": 1.0,
+          "operation": "add_value",
+          "slot": "feet"
+        }
+      ],
+      "minecraft:lore": [
+
+        {
+          "text": "海龟强化：+盔甲韧性",
+          "color": "green",
+          "italic": true
+        },
+        {
+          "text": "似乎有什么不同",
+          "color": "gray",
+          "italic":false,
+          "strikethrough":true
+        }
+      ]
+    }
+  },
+  "template": "minecraft:coast_armor_trim_smithing_template"
+}

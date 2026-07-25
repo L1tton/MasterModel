@@ -1,0 +1,11 @@
+{
+    "criteria": {
+      "hurt": {
+        "trigger": "minecraft:player_hurt_entity"
+      }
+    },
+    "rewards": {
+      "function": "weaponsmithing:tag_attacker"
+    },
+    "requirements": [["hurt"]]
+  }

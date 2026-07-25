@@ -1,0 +1,71 @@
+{
+    "type": "minecraft:smithing_transform",
+    "addition": "minecraft:echo_shard",
+    "base": "minecraft:iron_helmet",
+    "result": {
+      "id": "minecraft:iron_helmet",
+      "components": {
+        "minecraft:trim": {
+          "pattern": "minecraft:ward",
+          "material": "minecraft:amethyst"
+        },
+        "minecraft:custom_data": {
+          "armorsmithing:echo_darkness": {}
+        },
+        "minecraft:max_damage":99,
+        "minecraft:attribute_modifiers": [
+          {
+            "id": "minecraft:armor_helmet",
+            "type": "armor",
+            "amount": 2.0,
+            "operation": "add_value",
+            "slot": "head"
+          },
+          {
+          "id": "iron_helmet_upgrade:armor_boost",
+          "type": "armor",
+          "amount": 2.0,
+          "operation": "add_value",
+          "slot": "head"
+          },
+          {
+          "id": "iron_helmet_upgrade:toughness_boost",
+          "type": "armor_toughness",
+          "amount": 1.0,
+          "operation": "add_value",
+          "slot": "head"
+          }
+        ],
+        "minecraft:lore": [
+          {
+            "text": "回响强化:",
+            "color": "gold",
+            "italic": true
+          },
+          {
+            "text": "++护甲值",
+            "color": "blue",
+            "italic": true
+          },
+          {
+            "text": "++盔甲韧性",
+            "color": "blue",
+            "italic": true
+          },
+          {
+            "text": "-易碎",
+            "color": "gray",
+            "italic": true
+          },
+          {
+            "text": "Dark Fantasy",
+            "color": "dark_red",
+            "italic": false,
+            "bold": true ,
+            "underlined": true
+          }
+        ]
+      }
+    },
+    "template": "minecraft:ward_armor_trim_smithing_template"
+  }

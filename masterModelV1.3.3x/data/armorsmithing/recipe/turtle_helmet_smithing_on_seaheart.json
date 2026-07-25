@@ -1,0 +1,47 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": "minecraft:heart_of_the_sea",
+  "base": "minecraft:turtle_helmet",
+  "result": {
+    "id": "minecraft:turtle_helmet",
+    "components": {
+        "minecraft:custom_data": {
+          "armorsmithing:heart_of_the_sea_conduit_power": {}
+        },
+        "minecraft:attribute_modifiers": [
+          {
+            "id": "minecraft:armor_helmet",
+            "type": "armor",
+            "amount": 2.0,
+            "operation": "add_value",
+            "slot": "head"
+          },
+          {
+            "id": "turtle_helmet_upgrade:toughness_boost",
+            "type": "armor_toughness",
+            "amount": 6.0,
+            "operation": "add_value",
+            "slot": "head"
+          }
+        ],
+        "minecraft:lore": [
+          {
+            "text": "潮涌强化：",
+            "color": "light_purple",
+            "italic": true
+          },
+          {
+            "text": "+潮涌能量",
+            "color": "blue",
+            "italic": true
+          },
+          {
+            "text": "+盔甲韧性",
+            "color": "blue",
+            "italic": true
+          }
+        ]
+      }
+    },
+    "template": "minecraft:coast_armor_trim_smithing_template"
+  }
