@@ -29,6 +29,8 @@
   - 营火、石矛现可在背包中直接合成
   - 铁砧可通过与铁块合成进行修复
   - 火把合成产出减至 1 根；铜火把改用铜锭合成（原为铜粒）
+<img width="312" height="127" alt="README1" src="https://github.com/user-attachments/assets/92023723-10f4-4c72-9199-8ef0af5ee093" />
+
 - **熔炉机制**：
   - 熔炉、烟熏炉、高炉烧炼时间延长，消耗更多燃料（烟熏炉/高炉恢复至原版水平）
   - 上述方块获得的经验值提升；营火烹饪时间缩短，且可用于烧制粗铜矿
@@ -68,6 +70,10 @@
 > - 低级模板复制材料由钻石改为 **7 个铜锭**
 > - 多次锻造会**覆盖**上一次效果；盔甲纹饰升级无属性增益
 > - 适用类型与材料详见模板物品信息
+
+<img width="286" height="144" alt="README3" src="https://github.com/user-attachments/assets/f441db12-c4a8-4773-8d5a-024760b2a210" />
+<br>
+<img width="522" height="374" alt="README2" src="https://github.com/user-attachments/assets/f331bef8-a886-451a-98c9-89d798f1c63d" />
 
 ### 🛡️ 盔甲升级
 
