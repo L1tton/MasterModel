@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": "minecraft:armadillo_scute",
+  "base": "minecraft:copper_boots",
+  "result": {
+    "id": "minecraft:copper_boots",
+    "components": {
+      "!custom_data":{},
+      "minecraft:attribute_modifiers": [
+        {
+          "id": "minecraft:armor_boots",
+          "type": "armor",
+          "amount": 1.0,
+          "operation": "add_value",
+          "slot": "feet"
+        },
+        {
+          "id": "copper_boots_upgrade:toughness_boost",
+          "type": "armor_toughness",
+          "amount": 1.0,
+          "operation": "add_value",
+          "slot": "feet"
+        }
+      ],
+      "minecraft:lore": [
+        {
+          "text": "犰狳强化：+盔甲韧性",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "template": "minecraft:dune_armor_trim_smithing_template"
+}

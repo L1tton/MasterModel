@@ -1,0 +1,1 @@
+data merge entity @s {Health:30f,CanBreakDoors:1b,Tags:["strong"],attributes:[{id:"minecraft:attack_damage",base:3},{id:"minecraft:max_health",base:30},{id:"minecraft:movement_speed",base:0.35},{id:"follow_range",base:48}]}

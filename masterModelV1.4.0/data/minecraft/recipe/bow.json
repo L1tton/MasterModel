@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": "minecraft:stick",
+    "X": "minecraft:string"
+  },
+  "pattern": [
+    " #X",
+    "# X",
+    " #X"
+  ],
+  "result": {
+    "count": 1,
+    "components": {
+      "minecraft:max_damage":192,
+      "custom_data":{
+        "mastermodel:bad_tool":{}
+      },
+      "minecraft:lore": [
+        {
+        "text": "劣质的",
+        "color": "gray",
+        "italic": true
+        }
+      ]
+    },
+    "id": "minecraft:bow"
+  }
+}

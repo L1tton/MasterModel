@@ -1,0 +1,65 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": "#minecraft:netherite_tool_materials",
+  "base": "minecraft:diamond_sword",
+  "result": {
+    "id": "minecraft:netherite_sword",
+    "components": {
+      "!attack_range":{},
+      "!blocks_attacks": {},
+      "!custom_data":{},
+      "!weapon":{},
+      "unbreakable": {},
+      "minecraft:attribute_modifiers": [
+        {
+          "id": "minecraft:base_attack_damage",
+          "type": "attack_damage",
+          "amount": 7.0,
+          "display":{
+            "type": "override",
+            "value": {
+              "text": " 8 攻击伤害",
+              "color": "dark_green"
+            }
+          },          
+          "operation": "add_value",
+          "slot": "mainhand"
+        },
+        {
+          "id": "minecraft:base_attack_speed",
+          "type": "attack_speed",
+          "amount": -2.4,
+          "display":{
+            "type": "override",
+            "value": {
+              "text": " 1.6 攻击速度",
+              "color": "dark_green"
+            }
+          },  
+          "operation": "add_value",
+          "slot": "mainhand"
+        }
+      ],
+      "lore": [
+        {
+          "text": "合金的：",
+          "color": "gold",
+          "italic": true
+        },
+        {
+          "text": " +攻击伤害",
+          "color": "blue",
+          "italic": true
+        },
+        {
+          "text": "Unbreakable！",
+          "color": "red",
+          "italic": true,
+          "underlined":true,
+          "bold": true
+        }
+      ]
+    }
+  },
+  "template": "minecraft:netherite_upgrade_smithing_template"
+}

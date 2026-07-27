@@ -1,0 +1,36 @@
+{
+  "parent": "mastermodel:mastermodel/craft_campfire",
+  "criteria": {
+    "find_village": {
+      "conditions": {
+          "player": {
+            "location": {
+              "structures": "#minecraft:village"
+            }
+          }
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "description": {
+      "text": "找到一个村庄"
+    },
+    "frame": "goal",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:bell"
+    },
+    "title": {
+      "text": "村庄！"
+    }
+  },
+  "requirements": [
+    [
+      "find_village"
+    ]
+  ],
+  "rewards": {
+    "experience": 50
+  }
+}

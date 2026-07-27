@@ -1,0 +1,31 @@
+{
+    "parent": "mastermodel:mastermodel/obtain_chests",
+    "criteria": {
+        "summon_copper_golem":{
+            "conditions": {
+                "entity": {
+                    "entity_type": "copper_golem"
+                }
+            },
+            "trigger": "minecraft:summoned_entity"
+        }
+    },
+    "display": {
+        "description": {
+          "text": "买一送一！"
+        },
+        "hidden": true,
+        "icon": {
+          "count": 1,
+          "id": "minecraft:copper_chest"
+        },
+        "title": {
+          "text": "后备仓储"
+        }
+      },
+      "requirements": [
+        [
+          "summon_copper_golem"
+        ]
+    ]
+}

@@ -1,0 +1,85 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": "minecraft:amethyst_shard",
+  "base": "minecraft:diamond_spear",
+  "result": {
+    "id": "minecraft:diamond_spear",
+    "components": {
+      "!blocks_attacks": {},
+      "!custom_data":{},
+      "!weapon":{},
+      "attack_range":{
+        "max_reach": 5.0,
+        "min_reach": 2.0
+      },
+      "minecraft:attribute_modifiers": [
+        {
+          "id": "minecraft:base_attack_damage",
+          "type": "attack_damage",
+          "amount": 3.0,
+          "display":{
+            "type": "override",
+            "value": {
+              "text": " 4 攻击伤害",
+              "color": "dark_green"
+            }
+          },          
+          "operation": "add_value",
+          "slot": "mainhand"
+        },
+        {
+          "id": "minecraft:base_attack_speed",
+          "type": "attack_speed",
+          "amount": -3.05,
+          "display":{
+            "type": "override",
+            "value": {
+              "text": " 0.65 攻击速度",
+              "color": "dark_green"
+            }
+          },  
+          "operation": "add_value",
+          "slot": "mainhand"
+        },
+        {
+          "id": "minecraft:attack_damage_boost",
+          "type": "attack_damage",
+          "amount": 0.0,
+          "display":{
+            "type": "hidden"
+          },
+          "operation": "add_value",
+          "slot": "mainhand"
+        },
+        {
+          "id": "minecraft:attack_speed_boost",
+          "type": "attack_speed",
+          "amount": -0.3,
+          "display":{
+            "type": "hidden"
+          },
+          "operation": "add_value",
+          "slot": "mainhand"
+        }
+      ],
+            "minecraft:lore": [
+        {
+          "text": "大的",
+          "color": "green",
+          "italic": true
+        },
+        {
+          "text": " +攻击范围",
+          "color": "blue",
+          "italic": true
+        },
+        {
+          "text": " -攻击速度",
+          "color": "gray",
+          "italic": true
+        }   
+      ]
+    }
+  },
+  "template": "minecraft:wayfinder_armor_trim_smithing_template"
+}

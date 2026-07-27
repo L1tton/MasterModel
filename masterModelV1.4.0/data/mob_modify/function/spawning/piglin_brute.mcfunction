@@ -1,0 +1,1 @@
+data merge entity @s {Health:50f,Tags:["strong"],attributes:[{id:"armor",base:10},{id:"minecraft:attack_damage",base:20},{id:"minecraft:max_health",base:60},{id:"minecraft:movement_speed",base:0.37},{id:"follow_range",base:24}]}

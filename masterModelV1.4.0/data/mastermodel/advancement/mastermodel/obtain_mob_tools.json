@@ -1,0 +1,40 @@
+{
+    "parent": "mastermodel:mastermodel/obtain_bad_tools",
+    "criteria": {
+      "obtain_mob_tool": {
+        "conditions": {
+            "items": [
+              {
+                "components": {
+                  "custom_data":{
+                    "mastermodel:mob_weapon":{}
+                  }
+                }
+              }
+            ]
+        },
+        "trigger": "minecraft:inventory_changed"
+      }
+    },
+    "display": {
+      "description": {
+        "text": "zqqnmsl",
+        "obfuscated": true
+      },
+      "icon": {
+        "count": 1,
+        "id": "minecraft:iron_pickaxe",
+        "components":{
+          "enchantment_glint_override":true
+        }
+      },
+      "title": {
+        "text": "可怕的工具"
+      }
+    },
+    "requirements": [
+      [
+        "obtain_mob_tool"
+      ]
+    ]
+  }

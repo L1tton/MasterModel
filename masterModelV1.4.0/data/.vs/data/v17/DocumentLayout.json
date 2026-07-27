@@ -1,0 +1,126 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\mcdatapack\\masterModel_1.0\\data\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\mcdatapack\\masterModel_1.0\\data\\minecraft\\recipe\\grindstone.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:minecraft\\recipe\\grindstone.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\mcdatapack\\masterModel_1.0\\data\\minecraft\\recipe\\gold_ingot_from_smelting_deepslate_gold_ore.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:minecraft\\recipe\\gold_ingot_from_smelting_deepslate_gold_ore.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\mcdatapack\\masterModel_1.0\\data\\minecraft\\recipe\\hopper_minecart.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:minecraft\\recipe\\hopper_minecart.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\mcdatapack\\masterModel_1.0\\data\\minecraft\\recipe\\iron_helmet.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:minecraft\\recipe\\iron_helmet.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\mcdatapack\\masterModel_1.0\\data\\minecraft\\recipe\\gold_ingot_from_blasting_deepslate_gold_ore.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:minecraft\\recipe\\gold_ingot_from_blasting_deepslate_gold_ore.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\mcdatapack\\masterModel_1.0\\data\\minecraft\\recipe\\iron_chestplate.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:minecraft\\recipe\\iron_chestplate.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "gold_ingot_from_smelting_deepslate_gold_ore.json",
+              "DocumentMoniker": "E:\\mcdatapack\\masterModel_1.0\\data\\minecraft\\recipe\\gold_ingot_from_smelting_deepslate_gold_ore.json",
+              "RelativeDocumentMoniker": "minecraft\\recipe\\gold_ingot_from_smelting_deepslate_gold_ore.json",
+              "ToolTip": "E:\\mcdatapack\\masterModel_1.0\\data\\minecraft\\recipe\\gold_ingot_from_smelting_deepslate_gold_ore.json",
+              "RelativeToolTip": "minecraft\\recipe\\gold_ingot_from_smelting_deepslate_gold_ore.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-19T04:29:47.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "grindstone.json",
+              "DocumentMoniker": "E:\\mcdatapack\\masterModel_1.0\\data\\minecraft\\recipe\\grindstone.json",
+              "RelativeDocumentMoniker": "minecraft\\recipe\\grindstone.json",
+              "ToolTip": "E:\\mcdatapack\\masterModel_1.0\\data\\minecraft\\recipe\\grindstone.json",
+              "RelativeToolTip": "minecraft\\recipe\\grindstone.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-19T04:29:46.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "hopper_minecart.json",
+              "DocumentMoniker": "E:\\mcdatapack\\masterModel_1.0\\data\\minecraft\\recipe\\hopper_minecart.json",
+              "RelativeDocumentMoniker": "minecraft\\recipe\\hopper_minecart.json",
+              "ToolTip": "E:\\mcdatapack\\masterModel_1.0\\data\\minecraft\\recipe\\hopper_minecart.json",
+              "RelativeToolTip": "minecraft\\recipe\\hopper_minecart.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-19T04:29:43.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "iron_helmet.json",
+              "DocumentMoniker": "E:\\mcdatapack\\masterModel_1.0\\data\\minecraft\\recipe\\iron_helmet.json",
+              "RelativeDocumentMoniker": "minecraft\\recipe\\iron_helmet.json",
+              "ToolTip": "E:\\mcdatapack\\masterModel_1.0\\data\\minecraft\\recipe\\iron_helmet.json",
+              "RelativeToolTip": "minecraft\\recipe\\iron_helmet.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-19T04:29:39.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "gold_ingot_from_blasting_deepslate_gold_ore.json",
+              "DocumentMoniker": "E:\\mcdatapack\\masterModel_1.0\\data\\minecraft\\recipe\\gold_ingot_from_blasting_deepslate_gold_ore.json",
+              "RelativeDocumentMoniker": "minecraft\\recipe\\gold_ingot_from_blasting_deepslate_gold_ore.json",
+              "ToolTip": "E:\\mcdatapack\\masterModel_1.0\\data\\minecraft\\recipe\\gold_ingot_from_blasting_deepslate_gold_ore.json",
+              "RelativeToolTip": "minecraft\\recipe\\gold_ingot_from_blasting_deepslate_gold_ore.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-19T03:49:53.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "iron_chestplate.json",
+              "DocumentMoniker": "E:\\mcdatapack\\masterModel_1.0\\data\\minecraft\\recipe\\iron_chestplate.json",
+              "RelativeDocumentMoniker": "minecraft\\recipe\\iron_chestplate.json",
+              "ToolTip": "E:\\mcdatapack\\masterModel_1.0\\data\\minecraft\\recipe\\iron_chestplate.json",
+              "RelativeToolTip": "minecraft\\recipe\\iron_chestplate.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-19T03:45:58.284Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

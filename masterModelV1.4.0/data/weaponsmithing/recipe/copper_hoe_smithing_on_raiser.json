@@ -1,0 +1,66 @@
+{
+    "type": "minecraft:smithing_transform",
+    "addition": "minecraft:resin_brick",
+    "base": "minecraft:copper_hoe",
+    "result": {
+      "id": "minecraft:copper_hoe",
+      "components": {
+        "attribute_modifiers":[
+          {
+            "id": "minecraft:base_attack_damage",
+            "type": "attack_damage",
+            "amount": 0.0,
+            "display":{
+              "type": "override",
+              "value": {
+                "text": " 1 攻击伤害",
+                "color": "dark_green"
+              }
+            },          
+            "operation": "add_value",
+            "slot": "mainhand"
+          },
+          {
+            "id": "minecraft:base_attack_speed",
+            "type": "attack_speed",
+            "amount": 0.0,
+            "display":{
+              "type": "override",
+              "value": {
+                "text": " 4 攻击速度",
+                "color": "dark_green"
+              }
+            },  
+            "operation": "add_value",
+            "slot": "mainhand"
+          },
+          {
+            "id": "minecraft:block_interaction_range",
+            "type": "block_interaction_range",
+            "amount": 1.0,
+            "display": {
+              "type": "override",
+              "value": {
+                "text": "5.5 挖掘范围"
+              }
+            },
+            "operation": "add_value",
+            "slot":"mainhand" 
+          }
+        ],
+        "minecraft:lore": [
+          {
+            "text": "大的",
+            "color": "light_purple",
+            "italic": true
+          },
+          {
+            "text": " +挖掘范围",
+            "color": "blue",
+            "italic": true
+          }  
+        ]
+      }
+    },
+    "template": "minecraft:raiser_armor_trim_smithing_template"
+  }

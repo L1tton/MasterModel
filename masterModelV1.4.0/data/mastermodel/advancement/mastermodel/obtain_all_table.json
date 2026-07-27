@@ -1,0 +1,220 @@
+{
+  "parent": "mastermodel:mastermodel/obtain_furnace",
+  "criteria": {
+    "obtain_blast_furnace": {
+      "conditions": {
+        "items": [
+          {
+            "items": "blast_furnace"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "obtain_barrel": {
+      "conditions": {
+        "items": [
+          {
+            "items": "barrel"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "obtain_brewing_stand": {
+      "conditions": {
+        "items": [
+          {
+            "items": "brewing_stand"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+
+    "obtain_cartography_table": {
+      "conditions": {
+        "items": [
+          {
+            "items": "cartography_table"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "obtain_cauldron": {
+      "conditions": {
+        "items": [
+          {
+            "items": "cauldron"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "obtain_crafting_table": {
+      "conditions": {
+        "items": [
+          {
+            "items": "crafting_table"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "obtain_fletching_table": {
+      "conditions": {
+        "items": [
+          {
+            "items": "fletching_table"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "obtain_furnace":{
+      "conditions": {
+        "items": [
+          {
+            "items": "furnace"
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "obtain_grindstone": {
+      "conditions": {
+        "items": [
+          {
+            "items": "grindstone"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "obtain_lectern": {
+      "conditions": {
+        "items": [
+          {
+            "items": "lectern"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "obtain_loom": {
+      "conditions": {
+        "items": [
+          {
+            "items": "loom"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "obtain_smithing_table": {
+      "conditions": {
+        "items": [
+          {
+            "items": "smithing_table"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "obtain_smoker":{
+      "conditions": {
+        "items": [
+          {
+            "items": "smoker"
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    },
+    "obtain_stonecutter": {
+      "conditions": {
+        "items": [
+          {
+            "items": "stonecutter"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "obtain_composter": {
+      "conditions": {
+        "items": [
+          {
+            "items": "composter"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  
+  "display": {
+    "description": {
+      "text": "获得工作台,熔炉和所有工作方块"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:blast_furnace"
+    },
+    "title": {
+      "text": "工艺兼备"
+    }
+  },
+  "requirements": [
+    [
+      "obtain_blast_furnace"
+    ],
+    [
+      "obtain_barrel"
+    ],
+    [
+      "obtain_brewing_stand"
+    ],
+    [
+      "obtain_cartography_table"
+    ],
+    [
+      "obtain_cauldron"
+    ],
+    [
+      "obtain_composter"
+    ],
+    [
+      "obtain_crafting_table"
+    ],
+    [
+      "obtain_fletching_table"
+    ],
+    [
+      "obtain_furnace"
+    ],
+    [
+      "obtain_grindstone"
+    ],
+    [
+      "obtain_lectern"
+    ],
+    [
+      "obtain_loom"
+    ],
+    [
+      "obtain_smithing_table"
+    ],
+    [
+      "obtain_smoker"
+    ],
+    [
+      "obtain_stonecutter"
+    ]
+  ],
+  "rewards": {
+    "experience": 300
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "parent": "mastermodel:mastermodel/find_village",
+  "criteria": {
+    "find_woodland_mansion": {
+      "conditions": {
+          "player": {
+            "location": {
+              "structures": "minecraft:mansion"
+            }
+          }
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "description": {
+      "text": "进入林地府邸"
+    },
+    "frame": "goal",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:filled_map"
+    },
+    "title": {
+      "text": "庄园？"
+    }
+  },
+  "requirements": [
+    [
+      "find_woodland_mansion"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  }
+}

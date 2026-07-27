@@ -1,0 +1,36 @@
+{
+    "parent": "mastermodel:mastermodel/craft_stone_spear",
+    "criteria": {
+      "obtain_bad_tool": {
+        "conditions": {
+            "items": [
+              {
+                "components": {
+                  "custom_data":{
+                    "mastermodel:bad_tool":{}
+                  } 
+                }
+              }
+            ]
+        },
+        "trigger": "minecraft:inventory_changed"
+      }
+    },
+    "display": {
+      "description": {
+        "text": "本不应该这样的.."
+      },
+      "icon": {
+        "count": 1,
+        "id": "minecraft:stone_sword"
+      },
+      "title": {
+        "text": "劣质工艺"
+      }
+    },
+    "requirements": [
+      [
+        "obtain_bad_tool"
+      ]
+    ]
+  }

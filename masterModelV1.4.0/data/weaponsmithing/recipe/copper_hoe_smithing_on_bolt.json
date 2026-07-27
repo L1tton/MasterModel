@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": "minecraft:copper_nugget",
+  "base": "minecraft:copper_hoe",
+  "result": {
+    "id": "minecraft:copper_hoe",
+    "components": {
+      "max_damage":360,
+      "minecraft:lore": [
+        {
+          "text": "镶铆的：",
+          "color": "light_purple",
+          "italic": true
+        },
+        {
+          "text": " +坚固",
+          "color": "blue",
+          "italic": true
+        }    
+      ]
+    }
+  },
+  "template": "minecraft:bolt_armor_trim_smithing_template"
+}

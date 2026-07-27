@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": "minecraft:stick",
+    "X": "#minecraft:diamond_tool_materials"
+  },
+  "pattern": [
+    "X",
+    "#",
+    "#"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:diamond_shovel",
+    "components": {
+      "minecraft:max_damage":780,
+      "custom_data":{
+        "mastermodel:bad_tool":{}
+      },
+      "minecraft:lore": [
+        {
+        "text": "劣质的",
+        "color": "gray",
+        "italic": true
+        }
+      ]
+    }
+  }
+}

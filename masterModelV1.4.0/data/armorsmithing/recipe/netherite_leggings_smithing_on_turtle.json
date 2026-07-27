@@ -1,0 +1,53 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": "minecraft:turtle_scute",
+  "base": "minecraft:netherite_leggings",
+  "result": {
+    "id": "minecraft:diamond_leggings",
+    "components": {
+      "!custom_data":{},
+      "minecraft:trim": {
+        "pattern": "minecraft:coast",
+        "material": "minecraft:netherite"
+      },
+      "minecraft:attribute_modifiers": [
+        {
+          "id": "minecraft:armor_leggings",
+          "type": "armor",
+          "amount": 6.0,
+          "operation": "add_value",
+          "slot": "legs"
+        },
+        {
+          "id": "minecraft:armor_toughness_leggings",
+          "type": "armor_toughness",
+          "amount": 2.0,
+          "operation": "add_value",
+          "slot": "legs"
+        },
+        {
+          "id": "diamond_leggings_upgrade:toughness_boost",
+          "type": "armor_toughness",
+          "amount": 1.0,
+          "operation": "add_value",
+          "slot": "legs"
+        }
+      ],
+      "minecraft:lore": [
+
+        {
+          "text": "海龟强化：+盔甲韧性",
+          "color": "green",
+          "italic": true
+        },
+        {
+          "text": "似乎有什么不同",
+          "color": "gray",
+          "italic":false,
+          "strikethrough":true
+        }
+      ]
+    }
+  },
+  "template": "minecraft:coast_armor_trim_smithing_template"
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "mastermodel:mastermodel/find_woodland_mansion",
+  "criteria": {
+    "obtain_enchanting_table": {
+      "conditions": {
+        "items": [
+          {
+            "items": "enchanting_table"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "text": "获得附魔台并带它开始新的生活"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:enchanting_table"
+    },
+    "title": {
+      "text": "有借不还"
+    }
+  },
+  "requirements": [
+    [
+      "obtain_enchanting_table"
+    ]
+  ]
+}

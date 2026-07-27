@@ -1,0 +1,96 @@
+{
+    "type": "minecraft:smithing_transform",
+    "addition": "minecraft:reinforced_deepslate",
+    "base": "minecraft:netherite_boots",
+    "result": {
+      "id": "minecraft:diamond_boots",
+      "components": {
+        "!custom_data":{},
+        "minecraft:trim": {
+          "pattern": "minecraft:silence",
+          "material": "minecraft:netherite"
+        },
+        "minecraft:max_damage":257,
+        "minecraft:attribute_modifiers": [
+          {
+            "id": "minecraft:armor_boots",
+            "type": "armor",
+            "amount": 3.0,
+            "operation": "add_value",
+            "slot": "feet"
+          },
+          {
+            "id": "minecraft:armor_toughness_boots",
+            "type": "armor_toughness",
+            "amount": 2.0,
+            "operation": "add_value",
+            "slot": "feet"
+          },          
+          {
+          "id": "diamond_boots_upgrade:armor_boost",
+          "type": "armor",
+          "amount": 2.0,
+          "operation": "add_value",
+          "slot": "feet"
+          },
+          {
+          "id": "diamond_boots_upgrade:toughness_boost",
+          "type": "armor_toughness",
+          "amount": 2.0,
+          "operation": "add_value",
+          "slot": "feet"
+        },
+        {
+          "id": "minecraft:movement_efficiency_boots",
+          "type": "movement_efficiency",
+          "amount": 0.2,
+          "operation": "add_value",
+          "slot": "feet"
+        }
+      ],
+      "minecraft:lore": [
+        {
+          "text": "=================",
+          "color": "dark_gray"
+        },
+        {
+          "text": "幽静强化:",
+          "color": "red",
+          "italic": true
+        },
+        {
+          "text": "++护甲值",
+          "color": "gold",
+          "italic": true
+        },
+        {
+          "text": "++盔甲韧性",
+          "color": "gold",
+          "italic": true
+        },
+        {
+          "text": "+步履稳健",
+          "color": "gold",
+          "italic": true
+        },          
+        {
+          "text": "-易碎",
+          "color": "gray",
+          "italic": true,
+          "strikethrough": true
+        },
+        {
+          "text": "=================",
+          "color": "dark_gray"
+        },
+        {
+          "text": "空谷传响，哀转久绝",
+          "color": "dark_red",
+          "italic": false,
+          "bold": true 
+        }        
+      ]
+    }
+  },
+  "template": "minecraft:silence_armor_trim_smithing_template"
+}

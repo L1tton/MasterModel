@@ -1,0 +1,39 @@
+{
+  "criteria": {
+    "stick": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stick"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "background": "block/deepslate",
+    "description": {
+      "text": "合成配方去哪了TuT"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:stick"
+    },
+    "title": {
+      "text": "MasterModel"
+    }
+  },
+  "requirements": [
+    [
+      "stick"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:campfire",
+      "mastermodel:stone_spear_from_flint",
+      "weather:clear_clock"
+    ]
+  }
+}

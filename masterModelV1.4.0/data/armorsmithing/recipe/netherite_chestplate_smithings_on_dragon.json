@@ -1,0 +1,112 @@
+{
+    "type": "minecraft:smithing_transform",
+    "addition": "minecraft:elytra",
+    "base": "minecraft:netherite_chestplate",
+    "result": {
+      "id": "minecraft:netherite_chestplate",
+      "components": {
+        "minecraft:trim": {
+          "pattern": "minecraft:spire",
+          "material": "minecraft:amethyst"
+        },
+        "minecraft:custom_data": {
+          "armorsmithing:dragon_head_health_boost": {}
+        },
+        "glider":{},
+        "minecraft:attribute_modifiers": [
+          {
+            "id": "minecraft:armor_chestplate",
+            "type": "armor",
+            "amount": 9.0,
+            "operation": "add_value",
+            "slot": "chest"
+
+          },
+          {
+            "id": "minecraft:armor_toughness_chestplate",
+            "type": "armor_toughness",
+            "amount": 5.0,
+            "operation": "add_value",
+            "slot": "chest"
+          },
+          {
+            "id": "minecraft:movement_speed_chestplate",
+            "type": "knockback_resistance",
+            "amount": 0.2,
+            "operation": "add_value",
+            "slot": "chest"
+          },
+          {
+            "id": "minecraft:burning_time_chestplate",
+            "type": "burning_time",
+            "amount": -0.25,
+            "operation": "add_value",
+            "slot": "chest"
+          },
+          {
+            "id": "minecraft:block_interaction_range_chestplate",
+            "type": "block_interaction_range",
+            "amount": 1,
+            "operation": "add_value",
+            "slot": "chest"
+          }
+      ],
+        "minecraft:lore": [
+          {
+            "text": "=================",
+            "color": "dark_gray"
+          },
+          {
+            "text": "终末强化:",
+            "color": "red",
+            "italic": true
+          },
+          {
+            "text": "+护甲值",
+            "color": "gold",
+            "italic": true
+          },
+          {
+            "text": "+++盔甲韧性",
+            "color": "gold",
+            "italic": true
+          },
+          {
+            "text": "+击退抗性",
+            "color": "gold",
+            "italic": true
+          },          
+          {
+            "text": "-着火时间",
+            "color": "gold",
+            "italic": true
+          },
+          {
+            "text": "-----------------",
+            "color": "dark_gray"
+          },
+          {
+            "text": "+方块交互距离",
+            "color": "gold",
+            "italic": true
+          },
+          {
+            "text": "+允许滑翔",
+            "color": "gold",
+            "italic": true
+          },
+          {
+            "text": "=================",
+            "color": "dark_gray"
+          },
+          {
+            "text": "虚空铸型，不可磨灭",
+            "color": "dark_red",
+            "italic": false,
+            "bold": true 
+          }        
+        ]
+      }
+    },
+    "template": "minecraft:spire_armor_trim_smithing_template"
+  }

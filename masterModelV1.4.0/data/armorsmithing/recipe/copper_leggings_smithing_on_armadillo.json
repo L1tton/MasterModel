@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": "minecraft:armadillo_scute",
+  "base": "minecraft:copper_leggings",
+  "result": {
+    "id": "minecraft:copper_leggings",
+    "components": {
+      "!custom_data":{},
+      "minecraft:attribute_modifiers": [
+        {
+          "id": "minecraft:armor_leggings",
+          "type": "armor",
+          "amount": 3.0,
+          "operation": "add_value",
+          "slot": "legs"
+        },
+        {
+          "id": "copper_leggings_upgrade:toughness_boost",
+          "type": "armor_toughness",
+          "amount": 1.0,
+          "operation": "add_value",
+          "slot": "legs"
+        }
+      ],
+      "minecraft:lore": [
+        {
+          "text": "犰狳强化：+盔甲韧性",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "template": "minecraft:dune_armor_trim_smithing_template"
+}

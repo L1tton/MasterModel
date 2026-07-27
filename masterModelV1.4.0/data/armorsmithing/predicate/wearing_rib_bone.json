@@ -1,0 +1,36 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "head": {
+        "components": {
+          "minecraft:custom_data": {
+            "armorsmithing:bone_hunger": {}
+          }
+        }
+      },
+      "chest": {
+        "components": {
+          "minecraft:custom_data": {
+            "armorsmithing:bone_hunger": {}
+          }
+        }
+      },
+      "legs": {
+        "components": {
+          "minecraft:custom_data": {
+            "armorsmithing:bone_hunger": {}
+          }
+        }
+      },
+      "feet": {
+        "components": {
+          "minecraft:custom_data": {
+            "armorsmithing:bone_hunger": {}
+          }
+        }
+      }
+    }
+  }
+}

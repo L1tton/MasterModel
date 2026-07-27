@@ -1,0 +1,61 @@
+{
+  "parent": "mastermodel:mastermodel/find_woodland_mansion",
+  "criteria": {
+    "obtain_anvil": {
+      "conditions": {
+        "items": [
+          {
+            "items": "anvil"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "obtain_damaged_anvil": {
+      "conditions": {
+        "items": [
+          {
+            "items": "damaged_anvil"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "obtain_chipped_anvil": {
+      "conditions": {
+        "items": [
+          {
+            "items": "chipped_anvil"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "text": "获得铁砧并带它开始新的生活"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:damaged_anvil"
+    },
+    "title": {
+      "text": "拆迁队"
+    }
+  },
+  "requirements": [
+    [
+      "obtain_anvil",
+      "obtain_chipped_anvil",
+      "obtain_damaged_anvil"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "mastermodel:damage_anvil_repair_one",
+      "mastermodel:damage_anvil_repair_two",
+      "mastermodel:chipped_damage_anvil_repair"
+    ]
+  }
+}

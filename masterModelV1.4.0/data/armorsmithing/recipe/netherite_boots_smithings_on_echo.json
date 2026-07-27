@@ -1,0 +1,79 @@
+{
+    "type": "minecraft:smithing_transform",
+    "addition": "minecraft:echo_shard",
+    "base": "minecraft:netherite_boots",
+    "result": {
+      "id": "minecraft:diamond_boots",
+      "components": {
+        "minecraft:trim": {
+          "pattern": "minecraft:ward",
+          "material": "minecraft:netherite"
+        },
+        "minecraft:custom_data": {
+          "armorsmithing:echo_darkness": {}
+        },
+        "minecraft:max_damage":257,
+        "minecraft:attribute_modifiers": [
+          {
+            "id": "minecraft:armor_boots",
+            "type": "armor",
+            "amount": 3.0,
+            "operation": "add_value",
+            "slot": "feet"
+          },
+          {
+            "id": "minecraft:armor_toughness_boots",
+            "type": "armor_toughness",
+            "amount": 2.0,
+            "operation": "add_value",
+            "slot": "feet"
+          },          
+          {
+          "id": "diamond_boots_upgrade:armor_boost",
+          "type": "armor",
+          "amount": 2.0,
+          "operation": "add_value",
+          "slot": "feet"
+          },
+          {
+          "id": "diamond_boots_upgrade:toughness_boost",
+          "type": "armor_toughness",
+          "amount": 2.0,
+          "operation": "add_value",
+          "slot": "feet"
+          }
+        ],
+        "minecraft:lore": [
+          {
+            "text": "回响强化:",
+            "color": "gold",
+            "italic": true
+          },
+          {
+            "text": "++护甲值",
+            "color": "blue",
+            "italic": true
+          },
+          {
+            "text": "++盔甲韧性",
+            "color": "blue",
+            "italic": true
+          },
+          {
+            "text": "-易碎",
+            "color": "gray",
+            "italic": true,
+            "strikethrough": true
+          },
+          {
+            "text": "Deep Fantasy",
+            "color": "dark_red",
+            "italic": false,
+            "bold": true ,
+            "underlined": true
+          }
+        ]
+      }
+    },
+    "template": "minecraft:ward_armor_trim_smithing_template"
+  }

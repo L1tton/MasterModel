@@ -1,0 +1,118 @@
+{
+    "type": "minecraft:smithing_transform",
+    "addition": "minecraft:dragon_head",
+    "base": "minecraft:diamond_boots",
+    "result": {
+      "id": "minecraft:netherite_boots",
+      "components": {
+        "minecraft:trim": {
+          "pattern": "minecraft:spire",
+          "material": "minecraft:amethyst"
+        },
+        "minecraft:custom_data": {
+          "armorsmithing:dragon_head_health_boost": {}
+        },
+        "minecraft:attribute_modifiers": [
+          {
+            "id": "minecraft:armor_boots",
+            "type": "armor",
+            "amount": 4.0,
+            "operation": "add_value",
+            "slot": "feet"
+
+          },
+          {
+            "id": "minecraft:armor_toughness_boots",
+            "type": "armor_toughness",
+            "amount": 5.0,
+            "operation": "add_value",
+            "slot": "feet"
+          },
+          {
+            "id": "minecraft:movement_speed_boots",
+            "type": "knockback_resistance",
+            "amount": 0.2,
+            "operation": "add_value",
+            "slot": "feet"
+          },
+          {
+            "id": "minecraft:burning_time_boots",
+            "type": "burning_time",
+            "amount": -0.25,
+            "operation": "add_value",
+            "slot": "feet"
+          },      
+          {
+            "id": "minecraft:movement_speed_boots",
+            "type": "movement_speed",
+            "amount": 0.01,
+            "operation": "add_value",
+            "slot": "feet"
+          },
+          {
+            "id": "minecraft:fall_damage_multiplier_boots",
+            "type": "fall_damage_multiplier",
+            "amount": -0.5,
+            "operation": "add_value",
+            "slot": "feet"
+          }
+      ],
+        "minecraft:lore": [
+          {
+            "text": "=================",
+            "color": "dark_gray"
+          },
+          {
+            "text": "终末强化:",
+            "color": "red",
+            "italic": true
+          },
+          {
+            "text": "+护甲值",
+            "color": "gold",
+            "italic": true
+          },
+          {
+            "text": "+++盔甲韧性",
+            "color": "gold",
+            "italic": true
+          },
+          {
+            "text": "+击退抗性",
+            "color": "gold",
+            "italic": true
+          },          
+          {
+            "text": "-着火时间",
+            "color": "gold",
+            "italic": true
+          },
+          {
+            "text": "-----------------",
+            "color": "dark_gray"
+          },
+          {
+            "text": "+移动速度",
+            "color": "gold",
+            "italic": true
+          },
+          {
+            "text": "-摔落伤害",
+            "color": "gold",
+            "italic": true
+          },
+          {
+            "text": "=================",
+            "color": "dark_gray"
+          },
+          {
+            "text": "终末尖塔，登峰造极",
+            "color": "dark_red",
+            "italic": false,
+            "bold": true 
+          }        
+        ]
+      }
+    },
+    "template": "minecraft:spire_armor_trim_smithing_template"
+  }

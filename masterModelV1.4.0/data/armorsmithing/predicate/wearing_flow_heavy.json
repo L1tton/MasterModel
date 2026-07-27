@@ -1,0 +1,24 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "equipment": {
+        "head": {
+          "items": ["minecraft:iron_helmet"]
+        },
+        "chest": {
+          "components": {
+            "minecraft:custom_data": {
+              "armorsmithing:heavy_core_slow": {}
+            }
+          }
+        },
+        "legs": {
+          "items": ["minecraft:iron_leggings"]
+        },
+        "feet": {
+          "items": ["minecraft:iron_boots"]
+        }
+      }
+    }
+  }

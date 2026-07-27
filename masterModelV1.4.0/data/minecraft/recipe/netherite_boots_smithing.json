@@ -1,0 +1,89 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": "minecraft:netherite_ingot",
+  "base": "minecraft:diamond_boots",
+  "result": {
+    "id": "minecraft:netherite_boots",
+    "components": {
+      "!custom_data":{},
+      "minecraft:unbreakable":{},
+      "minecraft:attribute_modifiers": [
+        {
+          "id": "minecraft:armor_boots",
+          "type": "armor",
+          "amount": 4.0,
+          "operation": "add_value",
+          "slot": "feet"
+        },
+        {
+          "id": "minecraft:armor_toughness_boots",
+          "type": "armor_toughness",
+          "amount": 4.0,
+          "operation": "add_value",
+          "slot": "feet"
+        },
+        {
+          "id": "netherite_boots_upgrade:knockback_resistance",
+          "type": "knockback_resistance",
+          "amount": 0.1,
+          "operation": "add_value",
+          "slot": "feet"
+        },        
+        {
+          "id": "netherite_boots_upgrade:burning_time",
+          "type": "burning_time",
+          "amount": -0.2,
+          "operation": "add_value",
+          "slot": "feet"
+        },
+        {
+          "id": "netherite_boots_upgrade:movement_speed",
+          "type": "movement_speed",
+          "amount": -0.0025,
+          "operation": "add_value",
+          "slot": "feet"
+        }
+      ],
+      "minecraft:lore": [
+        {
+          "text": "下界合金升级：",
+          "color": "gold",
+          "italic": true
+        },
+        {
+          "text": "+护甲值",
+          "color": "blue",
+          "italic": true
+        },
+        {
+          "text": "+盔甲韧性",
+          "color": "blue",
+          "italic": true
+        },
+        {
+          "text": "+击退抗性",
+          "color": "blue",
+          "italic": true
+        },
+        {
+          "text": "-燃烧时间",
+          "color": "blue",
+          "italic": true
+        },
+        {
+          "text": "-移动速度",
+          "color": "gray",
+          "italic": true
+        },        
+        {
+          "text": "Unbreakable!",
+          "color": "red",
+          "italic": true,
+          "bold": true,
+          "underlined": true
+        }
+      ]
+    }
+  },
+  "template": "minecraft:netherite_upgrade_smithing_template"
+}

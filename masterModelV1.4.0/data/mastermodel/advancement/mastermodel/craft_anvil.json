@@ -1,0 +1,42 @@
+{
+    "parent": "mastermodel:mastermodel/obtain_anvil",
+    "criteria": {
+      "anvil": {
+        "conditions": {
+            "recipe_id": "mastermodel:damage_anvil_repair_one"
+        },
+        "trigger": "minecraft:recipe_crafted"
+      },
+      "anvil_two": {
+        "conditions": {
+            "recipe_id": "mastermodel:damage_anvil_repair_two"
+        },
+        "trigger": "minecraft:recipe_crafted"
+      },
+      "anvil_three": {
+        "conditions": {
+            "recipe_id": "mastermodel:chipped_damage_anvil_repair"
+        },
+        "trigger": "minecraft:recipe_crafted"
+      }
+    },
+    "display": {
+      "description": {
+        "text": "修复损坏的铁砧"
+      },
+      "icon": {
+        "count": 1,
+        "id": "minecraft:anvil"
+      },
+      "title": {
+        "text": "焕然一新"
+      }
+    },
+    "requirements": [
+      [
+        "anvil",
+        "anvil_two",
+        "anvil_three"
+      ]
+    ]
+  }

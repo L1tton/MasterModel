@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": "minecraft:stick",
+    "X": "#minecraft:iron_tool_materials"
+  },
+  "pattern": [
+    "  X",
+    " # ",
+    "#  "
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:iron_spear",
+    "components": {
+      "minecraft:max_damage":125,
+      "custom_data":{
+        "mastermodel:bad_tool":{}
+      },
+      "minecraft:lore": [
+        {
+        "text": "劣质的",
+        "color": "gray",
+        "italic": true
+        }
+      ]
+    }
+  }
+}

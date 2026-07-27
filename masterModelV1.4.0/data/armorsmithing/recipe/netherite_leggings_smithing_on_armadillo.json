@@ -1,0 +1,53 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": "minecraft:armadillo_scute",
+  "base": "minecraft:netherite_leggings",
+  "result": {
+    "id": "minecraft:diamond_leggings",
+    "components": {
+      "!custom_data":{},
+      "minecraft:trim": {
+        "pattern": "minecraft:dune",
+        "material": "minecraft:netherite"
+      },
+      "minecraft:attribute_modifiers": [
+        {
+          "id": "minecraft:armor_leggings",
+          "type": "armor",
+          "amount": 6.0,
+          "operation": "add_value",
+          "slot": "legs"
+        },
+        {
+          "id": "minecraft:armor_toughness_leggings",
+          "type": "armor_toughness",
+          "amount": 2.0,
+          "operation": "add_value",
+          "slot": "legs"
+        },
+        {
+          "id": "diamond_leggings_upgrade:armor_boost",
+          "type": "armor",
+          "amount": 1.0,
+          "operation": "add_value",
+          "slot": "legs"
+        }
+      ],
+      "minecraft:lore": [
+
+        {
+          "text": "犰狳强化：+护甲值",
+          "color": "green",
+          "italic": true
+        },
+        {
+          "text": "似乎有什么不同",
+          "color": "gray",
+          "italic":false,
+          "strikethrough":true
+        }
+      ]
+    }
+  },
+  "template": "minecraft:dune_armor_trim_smithing_template"
+}

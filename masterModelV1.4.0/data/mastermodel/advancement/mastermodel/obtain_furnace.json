@@ -1,0 +1,32 @@
+{
+  "parent": "mastermodel:mastermodel/find_village",
+  "criteria": {
+    "obtain_furnace": {
+      "conditions": {
+        "items": [
+          {
+            "items": "furnace"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "text": "获得熔炉"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:furnace"
+    },
+    "title": {
+      "text": "温暖的家"
+    }
+  },
+  "requirements": [
+    [
+      "obtain_furnace"
+    ]
+  ]
+}

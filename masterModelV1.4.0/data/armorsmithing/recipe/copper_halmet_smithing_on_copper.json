@@ -1,0 +1,63 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": "minecraft:copper_nugget",
+  "base": "minecraft:copper_helmet",
+  "result": {
+    "id": "minecraft:copper_helmet",
+    "components": {
+      "minecraft:trim": {
+        "pattern": "minecraft:bolt",
+        "material": "minecraft:copper"
+        },
+      "minecraft:custom_data": {
+        "armorsmithing:copper_nugget_attack_speed": {}
+        },
+      "minecraft:max_damage":200,
+      "minecraft:attribute_modifiers": [
+        {
+          "id": "minecraft:armor_helmet",
+          "type": "armor",
+          "amount": 2.0,
+          "operation": "add_value",
+          "slot": "head"
+        },
+        {
+          "id": "copper_helmet_upgrade:armor_boost",
+          "type": "armor",
+          "amount": 1.0,
+          "operation": "add_value",
+          "slot": "head"
+        }
+      ],
+      "minecraft:lore": [
+        {
+          "text": "镶铆强化：",
+          "color": "light_purple",
+          "italic": true
+        },
+        {
+          "text": "+护甲值",
+          "color": "blue",
+          "italic": true
+        },
+        {
+          "text": "+坚固",
+          "color": "blue",
+          "italic": true
+        },
+        {
+          "text": "套装效果：",
+          "color": "gray",
+          "italic": true,
+          "bold": true
+        },
+        {
+          "text": "+急迫",
+          "color": "gray",
+          "italic": true
+        }                
+      ]
+    }
+  },
+  "template": "minecraft:bolt_armor_trim_smithing_template"
+}

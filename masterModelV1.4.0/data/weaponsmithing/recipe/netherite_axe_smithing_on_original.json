@@ -1,0 +1,89 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": "minecraft:string",
+  "base": "minecraft:netherite_axe",
+  "result": {
+    "id": "minecraft:diamond_axe",
+    "components": {
+      "!attack_range": {},
+      "!blocks_attacks": {},
+      "!weapon":{},
+      "!custom_name":{},
+      "minecraft:attribute_modifiers": [
+        {
+          "id": "minecraft:base_attack_damage",
+          "type": "attack_damage",
+          "amount": 8,
+          "display":{
+            "type": "override",
+            "value": {
+              "text": " 8 攻击伤害",
+              "color": "dark_green"
+            }
+          },          
+          "operation": "add_value",
+          "slot": "mainhand"
+        },
+        {
+          "id": "minecraft:base_attack_speed",
+          "type": "attack_speed",
+          "amount": -3.0,
+          "display":{
+            "type": "override",
+            "value": {
+              "text": " 1.2 攻击速度",
+              "color": "dark_green"
+            }
+          },  
+          "operation": "add_value",
+          "slot": "mainhand"
+        },
+        {
+          "id": "minecraft:attack_damage_boost",
+          "type": "attack_damage",
+          "amount": -1.0,
+          "display":{
+            "type": "hidden"
+          },
+          "operation": "add_value",
+          "slot": "mainhand"
+        },
+        {
+          "id": "minecraft:attack_speed_boost",
+          "type": "attack_speed",
+          "amount": 0.2,
+          "display":{
+            "type": "hidden"
+          },
+          "operation": "add_value",
+          "slot": "mainhand"
+        }
+      ],
+            "minecraft:lore": [
+        {
+          "text": "原始的",
+          "color": "green",
+          "italic": true
+        },
+        {
+          "text": " -攻击伤害",
+          "color": "gray",
+          "italic": true
+        },
+        {
+          "text": " +攻击速度",
+          "color": "blue",
+          "italic": true
+        },
+        {
+          "text": "Unbreakable！",
+          "color": "red",
+          "italic": true,
+          "underlined":true,
+          "bold": true
+        }   
+      ]
+    }
+  },
+  "template": "minecraft:wild_armor_trim_smithing_template"
+}

@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": "minecraft:turtle_scute",
+  "base": "minecraft:copper_boots",
+  "result": {
+    "id": "minecraft:copper_boots",
+    "components": {
+      "!custom_data":{},
+      "minecraft:attribute_modifiers": [
+        {
+          "id": "minecraft:armor_boots",
+          "type": "armor",
+          "amount": 1.0,
+          "operation": "add_value",
+          "slot": "feet"
+        },
+        {
+          "id": "copper_boots_upgrade:armor_boost",
+          "type": "armor",
+          "amount": 1.0,
+          "operation": "add_value",
+          "slot": "feet"
+        }
+      ],
+      "minecraft:lore": [
+        {
+          "text": "海龟强化：+护甲值",
+          "color": "green",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "template": "minecraft:coast_armor_trim_smithing_template"
+}

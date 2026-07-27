@@ -1,0 +1,85 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": "minecraft:nether_star",
+  "base": "minecraft:diamond_sword",
+  "result": {
+    "id": "minecraft:diamond_sword",
+    "components": {
+      "!attack_range": {},
+      "!blocks_attacks": {},
+      "!weapon":{},
+      "custom_data":{
+        "weaponsmithing:wither_weapon":{}
+      },
+      "minecraft:attribute_modifiers": [
+        {
+          "id": "minecraft:base_attack_damage",
+          "type": "attack_damage",
+          "amount": 6.0,
+          "display":{
+            "type": "override",
+            "value": {
+              "text": " 8 攻击伤害",
+              "color": "dark_green"
+            }
+          },          
+          "operation": "add_value",
+          "slot": "mainhand"
+        },
+        {
+          "id": "minecraft:base_attack_speed",
+          "type": "attack_speed",
+          "amount": -2.4,
+          "display":{
+            "type": "override",
+            "value": {
+              "text": " 1.6 攻击速度",
+              "color": "dark_green"
+            }
+          },  
+          "operation": "add_value",
+          "slot": "mainhand"
+        },
+        {
+          "id": "minecraft:attack_damage_boost",
+          "type": "attack_damage",
+          "amount": 1.0,
+          "display":{
+            "type": "hidden"
+          },
+          "operation": "add_value",
+          "slot": "mainhand"
+        },
+        {
+          "id": "minecraft:attack_speed_boost",
+          "type": "attack_speed",
+          "amount": 0.0,
+          "display":{
+            "type": "hidden"
+          },
+          "operation": "add_value",
+          "slot": "mainhand"
+        }
+      ],
+            "minecraft:lore": [
+        {
+          "text": "致伤的",
+          "color": "gold",
+          "italic": true
+        },
+        {
+          "text": " +攻击伤害",
+          "color": "blue",
+          "italic": true
+        },
+        {
+          "text": " +凋零",
+          "color": "blue",
+          "italic": true
+        }
+              
+      ]
+    }
+  },
+  "template": "minecraft:rib_armor_trim_smithing_template"
+}

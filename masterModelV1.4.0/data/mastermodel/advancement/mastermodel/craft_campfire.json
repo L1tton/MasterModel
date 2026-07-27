@@ -1,0 +1,28 @@
+{
+    "parent": "mastermodel:mastermodel/root_obtain_stick",
+    "criteria": {
+      "campfire": {
+        "conditions": {
+            "recipe_id": "minecraft:campfire"
+        },
+        "trigger": "minecraft:recipe_crafted"
+      }
+    },
+    "display": {
+      "description": {
+        "text": "用原木和木棍合成一堆营火"
+      },
+      "icon": {
+        "count": 1,
+        "id": "minecraft:campfire"
+      },
+      "title": {
+        "text": "火种"
+      }
+    },
+    "requirements": [
+      [
+        "campfire"
+      ]
+    ]
+  }
