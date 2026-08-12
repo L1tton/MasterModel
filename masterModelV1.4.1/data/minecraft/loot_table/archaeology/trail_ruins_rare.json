@@ -1,0 +1,214 @@
+{
+  "type": "minecraft:archaeology",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:burn_pottery_sherd"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:danger_pottery_sherd"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:friend_pottery_sherd"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:heart_pottery_sherd"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:heartbreak_pottery_sherd"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:howl_pottery_sherd"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sheaf_pottery_sherd"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "components": {
+                  "minecraft:lore": [
+                  {
+                    "text": "=================",
+                    "color": "dark_gray",
+                    "italic": true
+                  },
+                  {
+                    "text": "可用于强化:",
+                    "color": "gray",
+                    "italic": false
+                  },                  
+                  {
+                    "text": " 武器",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "text": "强化材料:",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": " 紫水晶碎片",
+                    "color": "blue",
+                    "italic": false
+                  }
+                ]
+              },
+              "function": "minecraft:set_components"
+            }
+          ],
+          "name": "minecraft:wayfinder_armor_trim_smithing_template"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "components": {
+                  "minecraft:lore": [
+                  {
+                    "text": "=================",
+                    "color": "dark_gray",
+                    "italic": true
+                  },
+                  {
+                    "text": "可用于强化:",
+                    "color": "gray",
+                    "italic": false
+                  },                  
+                  {
+                    "text": " 工具",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "text": "强化材料:",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": " 树脂砖",
+                    "color": "blue",
+                    "italic": false
+                  }
+                ]
+              },
+              "function": "minecraft:set_components"
+            }
+          ],
+          "name": "minecraft:raiser_armor_trim_smithing_template"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "components": {
+                  "minecraft:lore": [
+                  {
+                    "text": "=================",
+                    "color": "dark_gray",
+                    "italic": true
+                  },
+                  {
+                    "text": "可用于塑造:",
+                    "color": "gray",
+                    "italic": false
+                  },                  
+                  {
+                    "text": " 铁砧",
+                    "color": "blue",
+                    "italic": false
+                  }
+                ]
+              },
+              "function": "minecraft:set_components"
+            }
+          ],
+          "name": "minecraft:shaper_armor_trim_smithing_template"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "components": {
+                  "minecraft:lore": [
+                  {
+                    "text": "=================",
+                    "color": "dark_gray",
+                    "italic": true
+                  },
+                  {
+                    "text": "可用于强化:",
+                    "color": "gray",
+                    "italic": false
+                  },                  
+                  {
+                    "text": " 皮革盔甲",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "text": "强化材料:",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": " 绿宝石",
+                    "color": "blue",
+                    "italic": false
+                  }
+                ]
+              },
+              "function": "minecraft:set_components"
+            }
+          ],
+          "name": "minecraft:host_armor_trim_smithing_template"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_relic"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "map",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:exploration_map",
+              "destination": "minecraft:on_ancinet_city_explorer_maps",
+              "decoration": "minecraft:target_x",
+              "zoom": 2,
+              "search_radius": 50,
+              "skip_existing_chunks": false
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "filled_map.ancient_city",
+                "fallback": "古代城探险家地图"
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:map_color": 675936
+              }
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecraft:archaeology/trail_ruins_rare"
+}

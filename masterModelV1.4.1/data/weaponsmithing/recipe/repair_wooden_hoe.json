@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "minecraft:wooden_hoe",
+    "minecraft:wooden_hoe"
+  ],
+  "result": {
+    "id": "minecraft:wooden_hoe",
+    "count": 1
+  }
+}

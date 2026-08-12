@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "minecraft:copper_shovel",
+    "minecraft:copper_shovel"
+  ],
+  "result": {
+    "id": "minecraft:copper_shovel",
+    "count": 1
+  }
+}

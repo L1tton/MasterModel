@@ -1,0 +1,9 @@
+{
+  "replace": true,
+  "values": [
+    "shepherd/2/emerald_black_wool",
+    "shepherd/2/emerald_gray_wool",
+    "shepherd/2/emerald_light_gray_wool",
+    "shepherd/2/emerald_white_wool"
+  ]
+}

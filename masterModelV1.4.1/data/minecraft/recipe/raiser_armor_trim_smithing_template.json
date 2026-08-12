@@ -1,0 +1,46 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": "minecraft:diamond",
+    "C": "minecraft:terracotta",
+    "S": "minecraft:raiser_armor_trim_smithing_template"
+  },
+  "pattern": [
+    "#S#",
+    "#C#",
+    "###"
+  ],
+  "result": {
+    "count": 2,
+    "id": "minecraft:raiser_armor_trim_smithing_template",
+        "components": {
+        "minecraft:lore": [
+        {
+          "text": "=================",
+          "color": "dark_gray",
+          "italic": true
+        },
+        {
+          "text": "可用于强化:",
+          "color": "gray",
+          "italic": false
+        },                  
+        {
+          "text": " 工具",
+          "color": "blue",
+          "italic": false
+        },
+        {
+          "text": "强化材料:",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": " 树脂砖",
+          "color": "blue",
+          "italic": false
+        }
+      ]
+    }
+  }
+}

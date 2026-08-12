@@ -1,0 +1,13 @@
+{
+  "replace": true,
+  "values": [
+    "leatherworker/3/emerald_simple_leather_boots",
+    "leatherworker/3/emerald_simple_leather_chestplate",
+    "leatherworker/3/emerald_simple_leather_helmet",
+    "leatherworker/3/emerald_simple_leather_leggings",
+    "leatherworker/3/emerald_pretty_leather_boots",
+    "leatherworker/3/emerald_pretty_leather_chestplate",
+    "leatherworker/3/emerald_pretty_leather_helmet",
+    "leatherworker/3/emerald_pretty_leather_leggings"
+  ]
+}

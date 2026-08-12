@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "minecraft:wolf_armor",
+    "minecraft:wolf_armor"
+  ],
+  "result": {
+    "id": "minecraft:wolf_armor",
+    "count": 1
+  }
+}

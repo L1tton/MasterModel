@@ -1,0 +1,77 @@
+{
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "components": {
+                  "minecraft:max_damage":840,
+                  "minecraft:banner_patterns": [
+                    {
+                      "color": "red",
+                      "pattern": "triangles_top"
+                    },
+                    {
+                      "color": "red",
+                      "pattern": "triangles_bottom"
+                    },
+                    {
+                      "color": "red",
+                      "pattern": "rhombus"
+                    },
+                    {
+                      "color": "black",
+                      "pattern": "curly_border"
+                    },
+                    {
+                      "color": "black",
+                      "pattern": "flower"
+                    },
+                    {
+                      "color": "red",
+                      "pattern": "border"
+                    }
+                  ],
+                  "minecraft:base_color": "black",
+                  "blocks_attacks":{
+                    "block_delay_seconds": 0.15,
+                    "block_sound":"item.shield.block",
+                    "bypassed_by":"#bypasses_shield",
+                    "damage_reductions": [
+                        {
+                            "base": 14,
+                            "factor": 0.5,
+                            "horizontal_blocking_angle": 45
+                        }
+                    ],
+                    "disabled_sound":"item.shield.break",
+                    "item_damage": {
+                        "base": 1,
+                        "factor": 1,
+                        "threshold": 9
+                    }
+                  },
+                  "custom_data":{
+                    "mastermodel:epic_tool":{}
+                  },
+                  "minecraft:lore":[
+                    {
+                        "text": "传奇的",
+                        "color": "gold",
+                        "italic": true
+                    }
+                   ]
+                },
+              "function": "minecraft:set_components"
+            }         
+          ],
+          "name": "minecraft:shield"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "criteria": {
+    "summon_wither": {
+      "trigger": "minecraft:location",
+        "conditions": {
+            "player": {
+                "location": {
+                    "dimension": "minecraft:the_nether",
+                    "position": {
+                        "y": {
+                            "min": 128,
+                            "max": 256
+                        }
+                    }
+                }
+            }
+        }
+    }
+  },
+  "rewards": {
+    "function": 
+      "mastermodel:on_the_hell"
+  },
+  "requirements": [
+    [
+      "summon_wither"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "minecraft:bow",
+    "minecraft:bow"
+  ],
+  "result": {
+    "id": "minecraft:bow",
+    "count": 1,
+    "components": {
+      "minecraft:lore": [
+        {
+          "text": "普通的",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  }
+}

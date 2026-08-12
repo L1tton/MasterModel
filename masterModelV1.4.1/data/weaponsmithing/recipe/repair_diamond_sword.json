@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "minecraft:diamond_sword",
+    "minecraft:diamond_sword"
+  ],
+  "result": {
+    "id": "minecraft:diamond_sword",
+    "count": 1,
+    "components": {
+      "minecraft:lore": [
+        {
+          "text": "普通的",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  }
+}

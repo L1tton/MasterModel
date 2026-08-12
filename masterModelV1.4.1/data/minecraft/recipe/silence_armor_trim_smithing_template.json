@@ -1,0 +1,47 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "minecraft:diamond",
+    "R": "minecraft:reinforced_deepslate",
+    "S": "minecraft:silence_armor_trim_smithing_template"
+  },
+  "pattern": [
+    "#S#",
+    "#R#",
+    "###"
+  ],
+  "result": {
+    "count": 2,
+    "id": "minecraft:silence_armor_trim_smithing_template",
+      "components": {
+      "lore": [
+                          {
+                    "text": "=================",
+                    "color": "dark_gray",
+                    "italic": true
+                  },
+                  {
+                    "text": "可用于强化:",
+                    "color": "gray",
+                    "italic": false
+                  },                  
+                  {
+                    "text": " 硬质盔甲",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "text": "强化材料:",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": " 强化深版岩",
+                    "color": "blue",
+                    "italic": false
+                  }
+      ]
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+    "criteria": {
+      "entity_attack": {
+        "trigger": "minecraft:entity_hurt_player",
+        "conditions": {
+          "damage": {
+            "source_entity": {
+              "entity_tags": 
+              {
+                "none_of": ["phase_end"],
+                "any_of": ["phase_3"]
+              }
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "mastermodel:ender_dragon/apply_darkness"
+    },
+    "requirements": [["entity_attack"]]
+  }

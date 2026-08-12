@@ -1,0 +1,18 @@
+[
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:custom_data": {
+        "special_repaired": true,
+        "repaired_by_shield": 1
+      },
+      "minecraft:lore": [
+        {
+          "text": "普通的",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  }
+]

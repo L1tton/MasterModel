@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "minecraft:crossbow",
+    "minecraft:crossbow"
+  ],
+  "result": {
+    "id": "minecraft:crossbow",
+    "count": 1,
+    "components": {
+      "minecraft:lore": [
+        {
+          "text": "普通的",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  }
+}

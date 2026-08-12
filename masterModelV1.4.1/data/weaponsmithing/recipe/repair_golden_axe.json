@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "minecraft:golden_axe",
+    "minecraft:golden_axe"
+  ],
+  "result": {
+    "id": "minecraft:golden_axe",
+    "count": 1,
+    "components": {
+      "minecraft:lore": [
+        {
+          "text": "普通的",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  }
+}

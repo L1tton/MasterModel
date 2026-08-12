@@ -1,0 +1,1 @@
+tellraw @s [{"text":"[MasterModel] ","color":"dark_red"},{"text":"勇者之证已解锁！","color":"gold"}]

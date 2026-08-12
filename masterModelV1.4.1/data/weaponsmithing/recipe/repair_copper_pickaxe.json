@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "minecraft:copper_pickaxe",
+    "minecraft:copper_pickaxe"
+  ],
+  "result": {
+    "id": "minecraft:copper_pickaxe",
+    "count": 1
+  }
+}

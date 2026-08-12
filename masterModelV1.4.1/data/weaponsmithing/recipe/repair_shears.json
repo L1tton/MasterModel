@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "minecraft:shears",
+    "minecraft:shears"
+  ],
+  "result": {
+    "id": "minecraft:shears",
+    "count": 1
+  }
+}

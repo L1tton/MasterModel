@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "minecraft:carrot_on_a_stick",
+    "minecraft:carrot_on_a_stick"
+  ],
+  "result": {
+    "id": "minecraft:carrot_on_a_stick",
+    "count": 1
+  }
+}

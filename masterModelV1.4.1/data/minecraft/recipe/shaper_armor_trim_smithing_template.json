@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": "minecraft:diamond",
+    "C": "minecraft:terracotta",
+    "S": "minecraft:shaper_armor_trim_smithing_template"
+  },
+  "pattern": [
+    "#S#",
+    "#C#",
+    "###"
+  ],
+  "result": {
+    "count": 2,
+    "id": "minecraft:shaper_armor_trim_smithing_template",
+        "components": {
+        "minecraft:lore": [
+        {
+          "text": "=================",
+          "color": "dark_gray",
+          "italic": true
+        },
+        {
+          "text": "可用于塑造:",
+          "color": "gray",
+          "italic": false
+        },                  
+        {
+          "text": " 铁砧",
+          "color": "blue",
+          "italic": false
+        }
+      ]
+    }
+  }
+}

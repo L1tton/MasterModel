@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "minecraft:copper_helmet",
+    "minecraft:copper_helmet"
+  ],
+  "result": {
+    "id": "minecraft:copper_helmet",
+    "count": 1
+  }
+}

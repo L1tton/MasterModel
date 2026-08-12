@@ -1,0 +1,50 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "minecraft:copper_ingot",
+    "C": [
+      "minecraft:copper_block",
+      "minecraft:waxed_copper_block"
+    ],
+    "S": "minecraft:bolt_armor_trim_smithing_template"
+  },
+  "pattern": [
+    "#S#",
+    "#C#",
+    "###"
+  ],
+  "result": {
+    "count": 2,
+    "id": "minecraft:bolt_armor_trim_smithing_template",
+        "components": {
+        "minecraft:lore": [
+        {
+          "text": "=================",
+          "color": "dark_gray",
+          "italic": true
+        },
+        {
+          "text": "可用于强化:",
+          "color": "gray",
+          "italic": false
+        },                  
+        {
+          "text": " 铜质装备 武器",
+          "color": "blue",
+          "italic": false
+        },
+        {
+          "text": "强化材料:",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": " 铜粒",
+          "color": "blue",
+          "italic": false
+        }
+      ]
+    }
+  }
+}

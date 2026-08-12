@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "minecraft:turtle_helmet",
+    "minecraft:turtle_helmet"
+  ],
+  "result": {
+    "id": "minecraft:turtle_helmet",
+    "count": 1
+  }
+}

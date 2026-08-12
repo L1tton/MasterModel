@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "minecraft:shield",
+    "minecraft:shield"
+  ],
+  "result": {
+    "id": "minecraft:shield",
+    "count": 1,
+    "components": {
+      "minecraft:base_color": "black",
+      "blocks_attacks":{
+        "block_delay_seconds": 0.15,
+        "block_sound":"item.shield.block",
+        "bypassed_by":"#bypasses_shield",
+        "damage_reductions": [
+            {
+                "base": 6,
+                "factor": 0.5,
+                "horizontal_blocking_angle": 45
+            }
+        ],
+        "disabled_sound":"item.shield.break",
+        "item_damage": {
+            "base": 1,
+            "factor": 1,
+            "threshold": 3
+        }
+      },
+      "minecraft:lore": [
+        {
+          "text": "普通的",
+          "color": "white",
+          "italic": true
+        }
+      ]
+    }
+  }
+}

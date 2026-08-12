@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "minecraft:golden_helmet",
+    "minecraft:golden_helmet"
+  ],
+  "result": {
+    "id": "minecraft:golden_helmet",
+    "count": 1
+  }
+}

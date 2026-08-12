@@ -1,0 +1,51 @@
+{
+  "wants": {
+    "id": "minecraft:emerald",
+    "count": 12
+  },
+  "additional_wants": {
+    "id": "minecraft:compass",
+    "count": 1
+  },
+  "gives": {
+    "id": "minecraft:map"
+  },
+  "given_item_modifiers": [
+    {
+      "function": "minecraft:exploration_map",
+      "destination": "minecraft:on_ruins_explorer_maps",
+      "decoration": "minecraft:target_x",
+      "zoom": 2,
+      "search_radius": 100,
+      "skip_existing_chunks": false
+    },
+    {
+      "function": "minecraft:set_name",
+      "name": {
+        "translate": "filled_map.trail_ruins",
+        "fallback": "古迹废墟探险家地图"
+      }
+    },
+    {
+      "function": "minecraft:set_components",
+      "components": {
+        "minecraft:map_color": 12293213
+      }
+    }
+  ],
+  "max_uses": 12,
+  "merchant_predicate": {
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "minecraft:predicates": {
+        "minecraft:villager/variant": [
+          "minecraft:jungle",
+          "minecraft:swamp"
+        ]
+      }
+    }
+  },
+  "xp": 10,
+  "reputation_discount": 0.2
+}

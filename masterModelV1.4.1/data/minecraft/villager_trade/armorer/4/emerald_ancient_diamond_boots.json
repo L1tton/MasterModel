@@ -1,0 +1,75 @@
+{
+  "given_item_modifiers": [
+    {
+      "function": "minecraft:enchant_with_levels",
+      "include_additional_cost_component": true,
+      "levels": {
+        "type": "minecraft:uniform",
+        "max": 19.0,
+        "min": 5.0
+      },
+      "options": "#minecraft:on_traded_equipment"
+    },
+    {
+      "function": "minecraft:filtered",
+      "item_filter": {
+        "items": "minecraft:diamond_boots",
+        "predicates": {
+          "minecraft:enchantments": [
+            {}
+          ]
+        }
+      },
+      "on_fail": {
+        "function": "minecraft:discard"
+      }
+    }
+  ],
+  "gives": {
+    "id": "minecraft:diamond_boots",
+    "components": {
+        "minecraft:attribute_modifiers": [
+          {
+            "id": "minecraft:movement_speed_boost",
+            "type": "movement_speed",
+            "amount": 0.005,
+            "operation": "add_value",
+            "slot": "feet"
+          },
+          {
+            "id": "minecraft:sneaking_speed_boost",
+            "type": "sneaking_speed",
+            "amount": 0.4,
+            "operation": "add_value",
+            "slot": "feet"
+          }
+        ],                
+        "minecraft:lore": [
+        {
+          "text": "麦晓雯的",
+          "color": "red",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "max_uses": 3.0,
+  "merchant_predicate": {
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "minecraft:predicates": {
+        "minecraft:villager/variant": [
+          "minecraft:jungle",
+          "minecraft:swamp"
+        ]
+      }
+    }
+  },
+  "reputation_discount": 0.2,
+  "wants": {
+    "count": 8.0,
+    "id": "minecraft:emerald"
+  },
+  "xp": 15.0
+}

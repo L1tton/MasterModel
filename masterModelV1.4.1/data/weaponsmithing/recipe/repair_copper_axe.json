@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "minecraft:copper_axe",
+    "minecraft:copper_axe"
+  ],
+  "result": {
+    "id": "minecraft:copper_axe",
+    "count": 1
+  }
+}

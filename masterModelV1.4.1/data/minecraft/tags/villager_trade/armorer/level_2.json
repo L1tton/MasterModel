@@ -1,0 +1,10 @@
+{
+  "replace": true,
+  "values": [
+    "#minecraft:common_smith/level_2",
+    "armorer/2/diamond_emerald",
+    "armorer/2/lava_bucket_emerald",
+    "armorer/2/emerald_shield",
+    "armorer/2/emerald_good_shield"
+  ]
+}

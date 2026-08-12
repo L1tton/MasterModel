@@ -1,0 +1,30 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:map",
+          "functions": [
+            {
+              "function": "minecraft:exploration_map",
+              "destination": "minecraft:on_ruins_explorer_maps",
+              "decoration": "minecraft:target_x",
+              "zoom": 2,
+              "search_radius": 50,
+              "skip_existing_chunks": false
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "filled_map.trail_ruins",
+                "fallback": "古迹废墟探险家地图"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

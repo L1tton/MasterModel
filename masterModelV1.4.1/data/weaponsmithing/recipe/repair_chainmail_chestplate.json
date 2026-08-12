@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "minecraft:chainmail_chestplate",
+    "minecraft:chainmail_chestplate"
+  ],
+  "result": {
+    "id": "minecraft:chainmail_chestplate",
+    "count": 1
+  }
+}

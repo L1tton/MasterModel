@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "minecraft:golden_leggings",
+    "minecraft:golden_leggings"
+  ],
+  "result": {
+    "id": "minecraft:golden_leggings",
+    "count": 1
+  }
+}

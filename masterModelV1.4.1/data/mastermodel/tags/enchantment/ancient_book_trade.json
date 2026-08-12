@@ -1,0 +1,33 @@
+{
+  "values": [
+    "minecraft:protection",
+    "minecraft:fire_protection",
+    "minecraft:feather_falling",
+    "minecraft:blast_protection",
+    "minecraft:projectile_protection",
+    "minecraft:thorns",
+    "minecraft:binding_curse",
+    "minecraft:sharpness",
+    "minecraft:smite",
+    "minecraft:bane_of_arthropods",
+    "minecraft:knockback",
+    "minecraft:fire_aspect",
+    "minecraft:looting",
+    "minecraft:sweeping_edge",
+    "minecraft:efficiency",
+    "minecraft:silk_touch",
+    "minecraft:unbreaking",
+    "minecraft:fortune",
+    "minecraft:power",
+    "minecraft:punch",
+    "minecraft:flame",
+    "minecraft:infinity",
+    "minecraft:impaling",
+    "minecraft:channeling",
+    "minecraft:multishot",
+    "minecraft:quick_charge",
+    "minecraft:piercing",
+    "minecraft:vanishing_curse",
+    "minecraft:swift_sneak"
+  ]
+}

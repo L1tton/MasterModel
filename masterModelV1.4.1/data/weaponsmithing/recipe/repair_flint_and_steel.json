@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "minecraft:flint_and_steel",
+    "minecraft:flint_and_steel"
+  ],
+  "result": {
+    "id": "minecraft:flint_and_steel",
+    "count": 1
+  }
+}

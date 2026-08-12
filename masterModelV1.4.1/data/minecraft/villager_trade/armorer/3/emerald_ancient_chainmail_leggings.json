@@ -1,0 +1,42 @@
+{
+  "gives": {
+    "id": "minecraft:chainmail_leggings",
+    "components": {
+      "minecraft:attribute_modifiers": [
+        {
+            "id": "minecraft:luck_boost",
+            "type": "luck",
+            "amount": 2.0,
+            "operation": "add_value",
+            "slot": "chest"
+        }
+      ],                
+      "minecraft:lore": [
+        {
+          "text": "远古的",
+          "color": "dark_blue",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "max_uses": 12.0,
+  "merchant_predicate": {
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "minecraft:predicates": {
+        "minecraft:villager/variant": [
+          "minecraft:jungle",
+          "minecraft:swamp"
+        ]
+      }
+    }
+  },
+  "reputation_discount": 0.2,
+  "wants": {
+    "count": 3.0,
+    "id": "minecraft:emerald"
+  },
+  "xp": 10.0
+}

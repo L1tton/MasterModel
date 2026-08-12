@@ -1,0 +1,1 @@
+advancement revoke @s from nether/kill_wither

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "minecraft:copper_boots",
+    "minecraft:copper_boots"
+  ],
+  "result": {
+    "id": "minecraft:copper_boots",
+    "count": 1
+  }
+}

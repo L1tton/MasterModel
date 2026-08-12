@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "entered_end": {
+      "conditions": {
+        "to": "minecraft:the_end"
+      },
+      "trigger": "minecraft:changed_dimension"
+    }
+  },
+  "requirements": [
+    [
+      "entered_end"
+    ]
+  ],
+  "rewards": {
+    "function": "mastermodel:ender_dragon/init_the_end"
+  }
+}

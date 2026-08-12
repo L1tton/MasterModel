@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "minecraft:leather_leggings",
+    "minecraft:leather_leggings"
+  ],
+  "result": {
+    "id": "minecraft:leather_leggings",
+    "count": 1
+  }
+}

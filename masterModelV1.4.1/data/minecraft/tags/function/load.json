@@ -1,0 +1,11 @@
+{
+    "replace":false,
+    "values": [
+      "armorsmithing:init_timer",
+      "mastermodel:load",
+      "mob_modify:load",
+      "weather:load",
+      "structural:load",
+      "mastermodel:ender_dragon/load"
+    ]
+  }

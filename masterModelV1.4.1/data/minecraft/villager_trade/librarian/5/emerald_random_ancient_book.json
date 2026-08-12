@@ -1,0 +1,40 @@
+{
+    "additional_wants": {
+    "id": "echo_shard",
+    "count": 1
+  },
+  "gives": {
+    "id": "minecraft:enchanted_book",
+    "count": 1,
+    "components": {
+      "minecraft:custom_data": {
+        "mastermodel":"random_ancient_book"
+      },
+      "minecraft:item_name": "Random Ancient Book",
+      "minecraft:lore": [
+        {"text":"获得随机附魔","color":"gray","italic":false},
+        {"text":"概率获得迅捷潜行","color":"green","italic":false,"bold": true,"underlined": true},
+        {"text": "wznmslnjqsl","obfuscated": true}
+      ]
+    }
+  },
+  "max_uses": 5,
+  "merchant_predicate": {
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "minecraft:predicates": {
+        "minecraft:villager/variant": [
+          "minecraft:jungle",
+          "minecraft:swamp"
+        ]
+      }
+    }
+  },
+  "reputation_discount": 0.2,
+  "xp": 1,
+  "wants": {
+    "id": "minecraft:emerald",
+    "count": 11
+  }
+}

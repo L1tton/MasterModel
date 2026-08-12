@@ -1,9 +1,0 @@
-{
-    "replace":false,
-    "values": [
-      "weaponsmithing:tick",
-      "armorsmithing:tick",
-      "mob_modify:tick",
-      "weather:tick"
-    ]
-  }

@@ -1,0 +1,46 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": "minecraft:diamond",
+    "C": "minecraft:end_stone",
+    "S": "minecraft:eye_armor_trim_smithing_template"
+  },
+  "pattern": [
+    "#S#",
+    "#C#",
+    "###"
+  ],
+  "result": {
+    "count": 2,
+    "id": "minecraft:eye_armor_trim_smithing_template",
+        "components": {
+        "minecraft:lore": [
+        {
+          "text": "=================",
+          "color": "dark_gray",
+          "italic": true
+        },
+        {
+          "text": "可用于强化:",
+          "color": "gray",
+          "italic": false
+        },                  
+        {
+          "text": " 头盔",
+          "color": "blue",
+          "italic": false
+        },
+        {
+          "text": "强化材料:",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": " 末影の眼",
+          "color": "blue",
+          "italic": false
+        }
+      ]
+    }   
+  }
+}

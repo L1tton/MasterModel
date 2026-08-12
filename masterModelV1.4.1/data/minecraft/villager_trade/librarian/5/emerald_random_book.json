@@ -1,0 +1,24 @@
+{
+  "gives": {
+    "id": "minecraft:enchanted_book",
+    "count": 1,
+    "components": {
+      "minecraft:custom_data": {
+        "mastermodel":"random_book"
+      },
+      "minecraft:item_name": "Random Enchanted Book",
+      "minecraft:lore": [
+        {"text":"获得随机附魔","color":"gray","italic":false},
+        {"text":"祝你好运","color":"green","italic":false,"bold": true},
+        {"text": "wznmslnjqsl","obfuscated": true}
+      ]
+    }
+  },
+  "max_uses": 6,
+  "reputation_discount": 0.2,
+  "xp": 1,
+  "wants": {
+    "id": "minecraft:emerald",
+    "count": 13
+  }
+}

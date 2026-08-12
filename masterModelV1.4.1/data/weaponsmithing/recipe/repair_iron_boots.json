@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "minecraft:iron_boots",
+    "minecraft:iron_boots"
+  ],
+  "result": {
+    "id": "minecraft:iron_boots",
+    "count": 1
+  }
+}

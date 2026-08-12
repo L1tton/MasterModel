@@ -1,0 +1,26 @@
+[
+  {
+    "function": "minecraft:enchant_randomly",
+    "options": "#mastermodel:ancient_book_trade",
+    "only_compatible": false
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:custom_data": {}
+    }
+  },
+  {
+    "function": "minecraft:set_name",
+    "name": {
+      "text": "附魔书",
+      "italic": false
+    },
+    "target": "item_name"
+  },
+  {
+    "function": "minecraft:set_lore",
+    "lore": [],
+    "mode": "replace_all"
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "minecraft:golden_chestplate",
+    "minecraft:golden_chestplate"
+  ],
+  "result": {
+    "id": "minecraft:golden_chestplate",
+    "count": 1
+  }
+}

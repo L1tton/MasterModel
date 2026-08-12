@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "minecraft:netherite_helmet",
+    "minecraft:netherite_helmet"
+  ],
+  "result": {
+    "id": "minecraft:netherite_helmet",
+    "count": 1
+  }
+}

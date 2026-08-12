@@ -1,0 +1,48 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "W": "#minecraft:wooden_tool_materials",
+    "o": "minecraft:iron_ingot"
+  },
+  "pattern": [
+    "WoW",
+    "WWW",
+    " W "
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:shield",
+    "components": {
+      "minecraft:max_damage":168,
+      "custom_data":{
+        "mastermodel:bad_tool":{}
+      },
+      "blocks_attacks":{
+        "block_delay_seconds": 0.15,
+        "block_sound":"item.shield.block",
+        "bypassed_by":"#bypasses_shield",
+        "damage_reductions": [
+            {
+                "base": 3,
+                "factor": 0.5,
+                "horizontal_blocking_angle": 45
+            }
+        ],
+        "disabled_sound":"item.shield.break",
+        "item_damage": {
+            "base": 1,
+            "factor": 1,
+            "threshold": 3
+        }
+      },
+      "minecraft:lore": [
+        {
+          "text": "劣质的",
+          "color": "gray",
+          "italic": true
+        }
+      ]
+    }
+  }
+}

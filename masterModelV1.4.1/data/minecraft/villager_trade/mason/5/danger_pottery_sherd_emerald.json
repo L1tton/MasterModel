@@ -1,0 +1,12 @@
+{
+  "gives": {
+    "count": 8,
+    "id": "minecraft:emerald"
+  },
+  "max_uses": 1.0,
+  "reputation_discount": 0.05,
+  "wants": {
+    "id": "minecraft:danger_pottery_sherd"
+  },
+  "xp": 30.0
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "minecraft:chainmail_leggings",
+    "minecraft:chainmail_leggings"
+  ],
+  "result": {
+    "id": "minecraft:chainmail_leggings",
+    "count": 1
+  }
+}

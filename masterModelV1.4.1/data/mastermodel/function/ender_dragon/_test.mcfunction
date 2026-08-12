@@ -1,0 +1,1 @@
+scoreboard players set #p2_timer charge_timer 100

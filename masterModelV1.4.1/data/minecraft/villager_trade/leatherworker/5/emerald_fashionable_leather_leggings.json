@@ -1,0 +1,73 @@
+{
+  "given_item_modifiers": [
+    {
+      "function": "minecraft:set_random_dyes",
+      "number_of_dyes": {
+        "type": "minecraft:sum",
+        "summands": [
+          1.0,
+          {
+            "type": "minecraft:binomial",
+            "n": 2.0,
+            "p": 0.75
+          }
+        ]
+      }
+    },
+    {
+      "function": "minecraft:filtered",
+      "item_filter": {
+        "items": "minecraft:leather_leggings",
+        "predicates": {
+          "minecraft:dyed_color": {}
+        }
+      },
+      "on_fail": {
+        "function": "minecraft:discard"
+      }
+    }
+  ],
+  "gives": {
+    "id": "minecraft:leather_leggings",
+    "components": {
+        "minecraft:attribute_modifiers": [
+          {
+            "id": "minecraft:luck_boost",
+            "type": "luck",
+            "amount": 1.0,
+            "operation": "add_value",
+            "slot": "chest"
+          }
+        ],                
+        "minecraft:lore": [
+        {
+          "text": "时髦的",
+          "color": "gold",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "max_uses": 12.0,
+  "merchant_predicate": {
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "minecraft:predicates": {
+        "minecraft:villager/variant": [
+          "minecraft:taiga",
+          "minecraft:snow",
+          "minecraft:desert",
+          "minecraft:plains",
+          "minecraft:savanna"
+        ]
+      }
+    }
+  },
+  "reputation_discount": 0.2,
+  "wants": {
+    "count": 3.0,
+    "id": "minecraft:emerald"
+  },
+  "xp": 20
+}

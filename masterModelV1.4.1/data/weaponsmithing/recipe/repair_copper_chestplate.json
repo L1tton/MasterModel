@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "minecraft:copper_chestplate",
+    "minecraft:copper_chestplate"
+  ],
+  "result": {
+    "id": "minecraft:copper_chestplate",
+    "count": 1
+  }
+}

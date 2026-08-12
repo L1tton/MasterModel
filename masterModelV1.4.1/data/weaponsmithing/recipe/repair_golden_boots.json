@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "minecraft:golden_boots",
+    "minecraft:golden_boots"
+  ],
+  "result": {
+    "id": "minecraft:golden_boots",
+    "count": 1
+  }
+}

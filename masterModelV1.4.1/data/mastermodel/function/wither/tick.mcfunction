@@ -1,0 +1,1 @@
+execute as @e[type=wither,tag=!strong,sort=random] at @s run function mob_modify:spawning/wither

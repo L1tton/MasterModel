@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "minecraft:copper_leggings",
+    "minecraft:copper_leggings"
+  ],
+  "result": {
+    "id": "minecraft:copper_leggings",
+    "count": 1
+  }
+}

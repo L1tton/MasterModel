@@ -1,0 +1,1 @@
+scoreboard players add #has_the_end the_end 1

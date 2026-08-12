@@ -1,0 +1,30 @@
+{
+  "wants": {
+    "id": "minecraft:emerald",
+    "count": 30
+  },
+  "gives": {
+    "id": "minecraft:stick"
+  },
+  "given_item_modifiers": [
+    {
+      "function": "minecraft:set_components",
+      "components": {
+        "minecraft:attribute_modifiers":[
+          {
+            "id": "minecraft:movement_speed_boost",
+            "type": "movement_speed",
+            "amount": 0.02,
+            "operation": "add_value",
+            "slot": "hand"
+          }
+        ],
+        "enchantment_glint_override": true,
+        "item_name": "登山杖"
+      }
+    }
+  ],
+  "max_uses": 1,
+  "xp": 1,
+  "reputation_discount": 0.2
+}

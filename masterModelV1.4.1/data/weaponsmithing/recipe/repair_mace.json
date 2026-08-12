@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "minecraft:mace",
+    "minecraft:mace"
+  ],
+  "result": {
+    "count": 1,
+    "components": {
+      "custom_data":{
+        "weaponsmithing:blindness_weapon":{}
+      },
+      "weapon":{
+        "disable_blocking_for_seconds": 0.55
+      },
+      "minecraft:lore": [
+        {
+          "text": "沉重的：",
+          "color": "gold",
+          "italic": true
+        },
+        {
+          "text": " +眩晕",
+          "color": "blue",
+          "italic": true
+        },      
+        {
+          "text": "=================",
+          "color": "dark_gray"
+        },
+        {
+          "text": "欲戴其冠 必承其重",
+          "color": "dark_red",
+          "italic": false,
+          "bold": true 
+        }        
+      ]
+    },
+    "id": "minecraft:mace"
+  }
+}

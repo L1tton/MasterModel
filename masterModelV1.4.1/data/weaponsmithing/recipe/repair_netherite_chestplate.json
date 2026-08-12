@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "minecraft:netherite_chestplate",
+    "minecraft:netherite_chestplate"
+  ],
+  "result": {
+    "id": "minecraft:netherite_chestplate",
+    "count": 1
+  }
+}

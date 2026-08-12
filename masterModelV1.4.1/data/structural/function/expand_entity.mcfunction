@@ -1,0 +1,1 @@
+execute as @e[type=wither,tag=!wither_set] at @s run function structural:expand

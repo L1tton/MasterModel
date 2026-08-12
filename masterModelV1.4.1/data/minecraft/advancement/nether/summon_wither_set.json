@@ -1,0 +1,37 @@
+{
+  "criteria": {
+    "summon_wither": {
+      "trigger": "minecraft:summoned_entity",
+        "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:wither",
+              "location": {
+                "biomes": "minecraft:soul_sand_valley",
+                "position": {
+                  "y": {
+                    "min": 32,
+                    "max": 110
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": 
+      "mastermodel:wither/wither_set_functions"
+  },
+  "requirements": [
+    [
+      "summon_wither"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

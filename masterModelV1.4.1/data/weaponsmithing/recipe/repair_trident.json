@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "minecraft:trident",
+    "minecraft:trident"
+  ],
+  "result": {
+    "id": "minecraft:trident",
+        "components": {
+      "minecraft:lore": [
+        {
+          "text": "仿制的",
+          "color": "dark_gray",
+          "italic": true
+        }
+      ]
+    },
+    "count": 1
+  }
+}

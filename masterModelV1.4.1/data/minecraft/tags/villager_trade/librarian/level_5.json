@@ -1,0 +1,7 @@
+{
+  "replace": true,
+  "values": [
+      "librarian/5/emerald_random_book",
+      "librarian/5/emerald_random_ancient_book"
+  ]
+}
