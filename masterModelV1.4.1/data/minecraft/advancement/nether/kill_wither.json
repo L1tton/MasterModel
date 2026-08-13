@@ -40,7 +40,7 @@
   },
   "rewards": {
     "experience": 1395,
-    "function": "mastermodel:check_wither_reward",
+    "function": "mastermodel:wither/check_wither_reward",
     "loot":[
       "mastermodel:hero_sword"
     ]

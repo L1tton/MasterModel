@@ -1,0 +1,19 @@
+{
+    "criteria": {
+      "player_attack": {
+        "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
+          "entity": {
+            "entity_type": "wither",
+            "entity_tags": {
+              "none_of": ["no_posture"]
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "mastermodel:wither/phase1/has_posture_hurt"
+    },
+    "requirements": [["player_attack"]]
+  }

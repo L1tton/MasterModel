@@ -6,5 +6,11 @@ execute as @e[type=wither,tag=!wither_set,limit=1] store result entity @s home_p
 execute as @e[type=wither,tag=!wither_set,limit=1] store result entity @s home_pos[1] int 1 run data get entity @s Pos[1]
 execute as @e[type=wither,tag=!wither_set,limit=1] store result entity @s home_pos[2] int 1 run data get entity @s Pos[2]
 
+#初始化计分板
+#架势条(在此处修改，最大架势值)
+execute as @e[type=wither,tag=!wither_set,limit=1] run scoreboard players set @s Wither_Posture 500
+execute as @e[type=wither,tag=!wither_set,limit=1] run scoreboard players set @s Wither_Timer 400
+execute as @e[type=wither,tag=!wither_set,limit=1] run scoreboard players set @s Wither_Timer_2 0
 
 execute as @e[type=wither,tag=!wither_set] at @s run tag @s add wither_set
+

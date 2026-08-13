@@ -5,6 +5,7 @@
       "armorsmithing:tick",
       "mob_modify:tick",
       "weather:tick",
-      "mastermodel:ender_dragon/tick"
+      "mastermodel:ender_dragon/tick",
+      "mastermodel:wither/tick"
     ]
   }

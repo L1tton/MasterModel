@@ -6,6 +6,7 @@
       "mob_modify:load",
       "weather:load",
       "structural:load",
-      "mastermodel:ender_dragon/load"
+      "mastermodel:ender_dragon/load",
+      "mastermodel:wither/load"
     ]
   }
