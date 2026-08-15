@@ -1,0 +1,1 @@
+scoreboard players set @e[type=wither,sort=nearest] Wither_Timer 10
