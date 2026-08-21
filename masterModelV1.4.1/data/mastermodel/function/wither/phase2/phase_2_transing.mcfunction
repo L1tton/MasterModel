@@ -14,17 +14,17 @@ execute if score @s Wither_Tran matches 32 at @s run playsound minecraft:block.n
 execute if score @s Wither_Tran matches 32 at @s run playsound minecraft:block.note_block.bass master @a[distance=..40] ~ ~ ~ 2.0 0.5
 # 鼓2
 execute if score @s Wither_Tran matches 22 at @s run playsound minecraft:block.note_block.basedrum master @a[distance=..40] ~ ~ ~ 2.0 0.5
-execute if score @s Wither_Tran matches 32 at @s run playsound minecraft:block.note_block.bass master @a[distance=..40] ~ ~ ~ 2.0 0.5
+execute if score @s Wither_Tran matches 22 at @s run playsound minecraft:block.note_block.bass master @a[distance=..40] ~ ~ ~ 2.0 0.5
 
 # 鼓3
 execute if score @s Wither_Tran matches 12 at @s run playsound minecraft:block.note_block.basedrum master @a[distance=..40] ~ ~ ~ 2.0 0.5
-execute if score @s Wither_Tran matches 32 at @s run playsound minecraft:block.note_block.bass master @a[distance=..40] ~ ~ ~ 2.0 0.5
-execute if score @s Wither_Tran matches 32 at @s run playsound minecraft:block.note_block.snare master @a[distance=..40] ~ ~ ~ 2.0 1.5
+execute if score @s Wither_Tran matches 12 at @s run playsound minecraft:block.note_block.bass master @a[distance=..40] ~ ~ ~ 2.0 0.5
+execute if score @s Wither_Tran matches 12 at @s run playsound minecraft:block.note_block.snare master @a[distance=..40] ~ ~ ~ 2.0 1.5
 
 # 鼓4
 execute if score @s Wither_Tran matches 6 at @s run playsound minecraft:block.note_block.basedrum master @a[distance=..40] ~ ~ ~ 2.5 0.5
-execute if score @s Wither_Tran matches 32 at @s run playsound minecraft:block.note_block.bass master @a[distance=..40] ~ ~ ~ 2.0 0.5
-execute if score @s Wither_Tran matches 32 at @s run playsound minecraft:block.note_block.snare master @a[distance=..40] ~ ~ ~ 2.0 1.5
+execute if score @s Wither_Tran matches 6 at @s run playsound minecraft:block.note_block.bass master @a[distance=..40] ~ ~ ~ 2.0 0.5
+execute if score @s Wither_Tran matches 6 at @s run playsound minecraft:block.note_block.snare master @a[distance=..40] ~ ~ ~ 2.0 1.5
 
 # 电吉他（失真感）
 execute if score @s Wither_Tran matches 1 at @s run playsound minecraft:block.note_block.guitar master @a[distance=..40] ~ ~ ~ 2.5 0.7

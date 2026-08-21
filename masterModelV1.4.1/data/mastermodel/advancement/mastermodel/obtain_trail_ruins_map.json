@@ -1,0 +1,62 @@
+{
+  "parent": "mastermodel:mastermodel/find_village",
+  "criteria": {
+    "has_custom_name": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:filled_map",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "filled_map.trail_ruins",
+                "fallback": "古迹废墟探险家地图"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "has_item_name": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:filled_map",
+            "components": {
+              "minecraft:item_name": {
+                "translate": "filled_map.trail_ruins",
+                "fallback": "古迹废墟探险家地图"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "id": "minecraft:filled_map",
+      "components": {
+        "minecraft:map_color": 12293213
+      },
+      "count": 1
+    },
+    "title": {
+      "text": "上古村落"
+    },
+    "description": {
+      "text": "在远古村民那获得一些指引"
+    },
+    "frame": "goal"
+  },
+  "rewards": {
+    "experience": 5
+  },
+  "requirements": [
+    [
+      "has_custom_name",
+      "has_item_name"
+    ]
+  ]
+}

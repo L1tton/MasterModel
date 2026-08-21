@@ -21,6 +21,6 @@
     ]
   ],
   "rewards": {
-    "function": "mastermodel:ender_dragon/restore_border"
+    "function": "mastermodel:ender_dragon/credits/first_kill_credits"
   }
 }

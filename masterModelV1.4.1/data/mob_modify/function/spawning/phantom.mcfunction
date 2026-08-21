@@ -1,5 +1,5 @@
 # Modiyfing Data
-data merge entity @s {Health:20f,size:1,Tags:["strong"],attributes:[{id:"minecraft:max_health",base:25},{id:"follow_range",base:48}]}
+data merge entity @s {Health:20f,Size:2,Tags:["strong"],attributes:[{id:"minecraft:max_health",base:25},{id:"follow_range",base:48},{id:"attack_damage",base:13}]}
 
 ## Giving Effect
 effect give @s invisibility infinite 0 false

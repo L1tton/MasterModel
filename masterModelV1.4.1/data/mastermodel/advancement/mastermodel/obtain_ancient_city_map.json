@@ -1,0 +1,62 @@
+{
+  "parent": "mastermodel:mastermodel/obtain_trail_ruins_map",
+  "criteria": {
+    "has_custom_name": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:filled_map",
+            "components": {
+              "minecraft:custom_name": {
+                "translate": "filled_map.ancient_city",
+                "fallback": "古代城探险家地图"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "has_item_name": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:filled_map",
+            "components": {
+              "minecraft:item_name": {
+                "translate": "filled_map.ancient_city",
+                "fallback": "古代城探险家地图"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "id": "minecraft:filled_map",
+      "components": {
+        "map_color": 675936
+      },
+      "count": 1
+    },
+    "title": {
+      "text": "深暗指引"
+    },
+    "description": {
+      "text": "找到废墟中埋藏的地图"
+    },
+    "frame": "goal"
+  },
+  "rewards": {
+    "experience": 5
+  },
+  "requirements": [
+    [
+      "has_custom_name",
+      "has_item_name"
+    ]
+  ]
+}

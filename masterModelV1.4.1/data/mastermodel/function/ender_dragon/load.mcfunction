@@ -3,6 +3,11 @@
 scoreboard objectives add the_end dummy
 scoreboard players add #no_border the_end 0
 scoreboard players add #has_the_end the_end 0
+scoreboard players add @a the_end 0
+
+# 玩家首次击败末影龙后的滚动字幕计时
+scoreboard objectives add mm_credits dummy
+scoreboard players add @a mm_credits 0
 
 scoreboard objectives add crystal_timer dummy
 scoreboard players set #timer crystal_timer 0

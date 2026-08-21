@@ -1,0 +1,49 @@
+{
+  "parent": "minecraft:story/cure_zombie_villager",
+  "criteria": {
+    "jungle_trade": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "entity_type": "minecraft:villager",
+          "components": {
+            "minecraft:villager/variant": "minecraft:jungle"
+          }
+        }
+      }
+    },
+    "swamp_trade": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "entity_type": "minecraft:villager",
+          "components": {
+            "minecraft:villager/variant": "minecraft:swamp"
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "id": "minecraft:emerald",
+      "count": 1
+    },
+    "title": {
+      "text": "远古村民?!"
+    },
+    "description": {
+      "text": "与丛林/沼泽村民交易"
+    },
+    "frame": "goal"
+  },
+  "rewards": {
+    "function": "mastermodel:drinking_stew"
+  },
+  "requirements": [
+    [
+    "jungle_trade",
+    "swamp_trade"
+    ]
+  ]
+}

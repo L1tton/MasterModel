@@ -36,3 +36,10 @@ effect give @a[predicate=armorsmithing:wearing_spire_dragon] health_boost 3 0 tr
 
 #雇主 村庄英雄
 effect give @a[predicate=armorsmithing:wearing_host_boost] hero_of_the_village 3 0 true
+
+
+##给每个玩家赋予计分板初始值 add
+execute as @a run scoreboard players add @s rib_bone_timer 0
+execute as @a run scoreboard players add @s rib_bone_timer2 0
+execute as @a run scoreboard players add @s sound_player_timer 0
+execute as @a run scoreboard players add @s glowing_timer 0

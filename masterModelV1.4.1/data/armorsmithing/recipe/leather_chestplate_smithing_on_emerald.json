@@ -1,12 +1,12 @@
 {
     "type": "minecraft:smithing_transform",
-    "addition": "minecraft:emerald",
+    "addition": "minecraft:emerald_block",
     "base": "minecraft:leather_chestplate",
     "result": {
       "id": "minecraft:leather_chestplate",
       "components": {
         "custom_data":{
-          "host_boost":{}
+          "armorsmithing:host_boost":{}
         },
         "minecraft:attribute_modifiers": [
           {

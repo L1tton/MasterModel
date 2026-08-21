@@ -3,6 +3,9 @@ execute if score #has_the_end the_end matches 0 run return 0
 
 #say has end
 
+# 首次进入末地后的第一条龙、以及之后每次复活：各执行一次 dragon_init
+execute as @e[type=ender_dragon,tag=!mm_inited] at @s run function mastermodel:ender_dragon/credits/dragon_init
+
 # 首先赋予末影龙strong tag 防止血量判定出现问题
 execute as @e[type=ender_dragon,tag=!strong,sort=random] at @s run function mob_modify:spawning/ender_dragon
 # 把末影龙当前血量存进计分板
@@ -30,10 +33,13 @@ execute in minecraft:the_end if entity @e[type=minecraft:ender_dragon,tag=phase_
 ## ========== 死亡行为 ==========
 execute in minecraft:the_end if entity @e[type=ender_dragon,limit=1] if score #dragon_hp crystal_timer matches ..1 run execute as @e[type=ender_dragon,tag=!phase_end] at @s run function mastermodel:playsound/dragon_death
 
-## ========== 世界边界 ==========
+## ========== 世界边界/字幕 ==========
 execute if score #no_border the_end matches 0 run function mastermodel:ender_dragon/setup_border
 execute if score #no_border the_end matches 1 run tellraw @a [{"text":"[MasterModel] ","color":"dark_purple"},{"text":"末影龙已击败，开放外岛边界。","color":"gold"}]
 execute if score #no_border the_end matches 1 run scoreboard players add #no_border the_end 1
+
+## 首次击杀滚动字幕
+execute as @a[tag=mm_credits,scores={mm_credits=1..}] run function mastermodel:ender_dragon/credits/credits_tick
 
 ##Boss 栏控制 
 
