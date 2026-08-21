@@ -2,7 +2,7 @@
 data merge entity @e[type=wither,tag=!wither_set,limit=1] {home_pos:[I;-20,-20,-20],home_radius:30}
 data merge entity @e[type=wither,tag=!wither_set,limit=1] {Health:450}
 data merge entity @e[type=wither,tag=!wither_set,limit=1] {attributes:[{id:"flying_speed",base:-20.3}]}
-execute as @e[type=wither,tag=!wither_set,limit=1] store result entity @s home_pos[-20] int 1 run data get entity @s Pos[-20]
+execute as @e[type=wither,tag=!wither_set,limit=1] store result entity @s home_pos[0] int 1 run data get entity @s Pos[0]
 execute as @e[type=wither,tag=!wither_set,limit=1] store result entity @s home_pos[1] int 1 run data get entity @s Pos[1]
 execute as @e[type=wither,tag=!wither_set,limit=1] store result entity @s home_pos[2] int 1 run data get entity @s Pos[2]
 

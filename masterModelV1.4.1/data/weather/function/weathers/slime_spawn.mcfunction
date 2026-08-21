@@ -1,7 +1,7 @@
 schedule function weather:weathers/slime_spawn 35t replace
 
 # 在玩家位置召唤一个不可见的标记实体
-execute if score thislime slimetime matches 1.. at @a run summon marker ~ ~ ~ {Tags:["slime_marker"],NoGravity:1b}
+execute if score thislime slimetime matches 1.. as @a[gamemode=!spectator] at @s if dimension minecraft:overworld run summon marker ~ ~ ~ {Tags:["slime_marker"],NoGravity:1b}
 execute at @a run spreadplayers ~ ~ 0 32 false @e[tag=slime_marker,distance=..0.5,limit=1]
 
 execute store result score random_storage random_storage run random value 1..10

@@ -1,9 +1,9 @@
 {
   "type": "minecraft:smithing_transform",
   "addition": "minecraft:resin_brick",
-  "base": "minecraft:netherite_axe",
+  "base": "minecraft:netherite_hoe",
   "result": {
-    "id": "minecraft:diamond_axe",
+    "id": "minecraft:diamond_hoe",
     "components": {
       "attribute_modifiers":[
         {

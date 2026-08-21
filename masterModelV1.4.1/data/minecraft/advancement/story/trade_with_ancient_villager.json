@@ -37,9 +37,6 @@
     },
     "frame": "goal"
   },
-  "rewards": {
-    "function": "mastermodel:drinking_stew"
-  },
   "requirements": [
     [
     "jungle_trade",

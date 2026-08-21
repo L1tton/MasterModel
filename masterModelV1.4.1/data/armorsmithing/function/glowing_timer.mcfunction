@@ -1,2 +1,2 @@
 execute as @a[scores={glowing_timer=0..}] run scoreboard players add @s glowing_timer 1
-title @s actionbar {"text": "发光计时器: ","color":"gold","extra":[{"score":{"name":"@s","objective":"glowing_timer"}}]}
+#title @s actionbar {"text": "发光计时器: ","color":"gold","extra":[{"score":{"name":"@s","objective":"glowing_timer"}}]}
