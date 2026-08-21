@@ -1,6 +1,6 @@
 <!-- 顶部徽章区：使用 shields.io 动态生成，提升专业感 -->
 <p align="center">
-  <img src="https://img.shields.io/badge/版本-V1.4.1-blue?style=for-the-badge&logo=github" alt="版本">
+  <img src="https://img.shields.io/badge/版本-V1.4.1x-blue?style=for-the-badge&logo=github" alt="版本">
   <img src="https://img.shields.io/badge/适用版本-26.1~26.2-orange?style=for-the-badge&logo=minecraft" alt="MC版本">
   <img src="https://img.shields.io/badge/类型-数据包-green?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MCIgaGVpZ2h0PSI0MCIgdmlld0JveD0iMCAwIDQwIDQwIj48cGF0aCBkPSJNMjAgM0wzIDExdjE4bDE3IDggMTctOHYtMThMMjAgM3oiIGZpbGw9IiM1NUIyRTMiLz48cGF0aCBkPSJNMjAgMTFsLTcgNHY4bDcgNCA3LTR2LThsLTctNHoiIGZpbGw9IiNGRkZGRkYiLz48L3N2Zz4=" alt="数据包">
   <img src="https://img.shields.io/badge/许可证-非商业使用-red?style=for-the-badge&logo=creativecommons" alt="许可证">
