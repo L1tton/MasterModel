@@ -10,14 +10,8 @@
             "entity": "this",
             "predicate": {
               "entity_type": "minecraft:wither",
-              "location": {
-                "biomes": "minecraft:soul_sand_valley",
-                "position": {
-                  "y": {
-                    "min": 32,
-                    "max": 110
-                  }
-                }
+              "entity_tags": {
+                "any_of": ["wither_set"]
               }
             }
           }

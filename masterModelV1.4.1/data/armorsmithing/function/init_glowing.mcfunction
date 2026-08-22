@@ -12,9 +12,10 @@ team modify glow_green nametagVisibility never
 team modify glow_green deathMessageVisibility never
 team modify glow_green collisionRule never
 
-team add glow_blue
-team modify glow_blue color gold
-team modify glow_blue deathMessageVisibility never
-team modify glow_blue collisionRule never
+team add glow_gold
+team modify glow_gold color gold
+team modify glow_gold deathMessageVisibility never
+team modify glow_gold collisionRule never
+team join glow_gold @a
 
 title @a times 10 0 20
